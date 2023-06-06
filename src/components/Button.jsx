@@ -3,7 +3,7 @@ import React from "react";
 
 function Button(props) {
   return (
-    <button className="btn bg-[#0100E0] text-white hover:bg-blue-500 rounded-2xl border-none">
+    <button className="btn bg-[#0100E0] text-white hover:bg-blue-500 rounded-full border-none">
       {props.text}
     </button>
   );
