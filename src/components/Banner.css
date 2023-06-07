@@ -23,7 +23,8 @@
   padding: 10px 20px;
   border-radius: 100px;
   cursor: pointer;
-  background: #0b0add;
+  background: rgba(0, 0, 0, 0.5);
+  size: 20px;
   color: #fff;
   outline: 0;
   border: 0;

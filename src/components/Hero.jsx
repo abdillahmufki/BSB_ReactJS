@@ -1,12 +1,12 @@
 import React from "react";
 import Button from "./Button";
 import { Container, Row, Col } from "react-grid-system";
-import img from "../assets/images/imgBg.jpg";
+import Banner from "./Banner";
 
 const Hero = () => {
   return (
     <>
-      <Container fluid className="min-h-screen bg-[#fff] lg:mt-[140px]">
+      <Container fluid className="min-h-fit bg-[#fff] lg:mt-[140px] my-20">
         <Row className="gap-y-10 lg:px-20">
           <Col lg={6} sm={12}>
             <div className="text-center lg:px-3">
@@ -25,9 +25,10 @@ const Hero = () => {
             </div>
           </Col>
           <Col lg={6} sm={12}>
-            <div className="text-center">
-              <img src={img} alt="hero" className="rounded-2xl lg:mt-7" />
-            </div>
+            {/* <div className="text-center">
+              <img src={img} alt="hero" className="rounded-2xl" />
+            </div> */}
+            <Banner />
           </Col>
         </Row>
       </Container>
