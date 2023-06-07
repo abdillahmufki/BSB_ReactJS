@@ -1,13 +1,15 @@
 import React from "react";
 import Hero from "../components/Hero";
-import { Banner } from "../components";
 import HomeProduct from "./Home/HomeProduct";
+import ChooseMe from "./Home/ChooseMe";
+import BrandSection from "./Home/BrandSection";
 
 const Home = () => {
   return (
     <div className="mt-[90px]">
       <Hero />
-      <Banner />
+      <ChooseMe />
+      <BrandSection />
       <HomeProduct />
     </div>
   );

@@ -27,7 +27,7 @@ const Navbar = () => {
     <div
       className={`navbar bg-white text-black px-5 py-4 z-50 text-lg fixed top-0 w-full transition-all duration-300 ${
         showNavbar ? "" : "-translate-y-full"
-      } ${showNavbar ? "shadow-md" : ""}`}
+      } ${showNavbar ? "shadow-sm" : ""}`}
     >
       <div className="navbar-start">
         <div className="dropdown">
@@ -67,7 +67,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>Career</a>
             </li>
           </ul>
         </div>
@@ -93,7 +93,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <a>Item 3</a>
+            <a>Career</a>
           </li>
         </ul>
       </div>

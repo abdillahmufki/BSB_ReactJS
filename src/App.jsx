@@ -10,6 +10,7 @@ function App() {
       <Router>
         <header>
           <Navbar />
+          <Navbar />
         </header>
         <main>
           <Routes>

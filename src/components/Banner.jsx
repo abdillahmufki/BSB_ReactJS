@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 import "./Banner.css";
 
-import { EffectFade, Navigation, Pagination } from "swiper";
+import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 
 import { img1, img2, img3, img4, img5 } from "../assets/banner";
 
@@ -39,22 +39,26 @@ const dataImage = [
 export default function Banner() {
   return (
     <Container className="lg:px-20 max-[600px]:p-5 my-10">
-      <div className="my-10">
+      {/* <div className="my-10">
         <h3 className="text-2xl font-semibold text-center max-[600px]:text-xl">
           Kami adalah perusahaan terkemuka di bidang Distribusi Tekstil dengan
           spesialisasi pada Produk Internal Group. Dari perlengkapan tidur
           hingga aksesori rumah tangga, kami menawarkan koleksi lengkap produk
           berkualitas tinggi.
         </h3>
-      </div>
+      </div> */}
       <Swiper
         spaceBetween={30}
         effect={"fade"}
-        navigation={true}
+        // navigation={true}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}
-        modules={[EffectFade, Navigation, Pagination]}
+        modules={[EffectFade, Navigation, Pagination, Autoplay]}
         className="mySwiper"
       >
         {dataImage.map((item) => (
