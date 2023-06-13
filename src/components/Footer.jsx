@@ -1,9 +1,12 @@
 import React from "react";
-
+import logo from "../assets/logo/bsbWhite.png";
 const Footer = () => {
   return (
     <>
       <footer className="footer p-10 bg-neutral text-neutral-content">
+        <div>
+          <img src={logo} width={180} alt="logo" className="lg:mt-10" />
+        </div>
         <div>
           <span className="footer-title">Services</span>
           <a className="link link-hover">Branding</a>
@@ -27,7 +30,7 @@ const Footer = () => {
       </footer>
       <footer className="footer p-10 bg-neutral text-neutral-content flex justify-center">
         <p className="text-center">
-          Copyright © 2020 Gestalt Systech. All rights reserved
+          Copyright © 2023 Gestalt Systech. All rights reserved
         </p>
       </footer>
     </>

@@ -29,7 +29,7 @@ const BrandSection = () => {
               <img
                 src={logo}
                 alt="img"
-                className="w-28 lg:ml-8 md:ml-20 my-5"
+                className="lg:w-28 w-48 lg:ml-8 md:ml-20 my-5 max-[600px]:ml-20"
               />
             </Col>
           ))}
