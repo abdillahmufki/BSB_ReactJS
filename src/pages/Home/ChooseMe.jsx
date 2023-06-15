@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
-import img from "../../assets/banner/01.jpg";
 import { quality, delivery, trusted, bestPrice } from "../../assets/icon";
+import imgMockUP from "../../assets/content/mocup.avif";
 
 const features = [
   {
@@ -9,7 +9,7 @@ const features = [
     title: "Kualitas Terbaik",
     description:
       "Kami menyediakan tekstil berkualitas tinggi yang telah terbukti memenuhi standar industri tertinggi. Dengan kerja keras dan pengalaman kami, kami menghadirkan produk yang tahan lama dan memukau.",
-    color: "bg-orange-600",
+    color: "bg-orange-600 text-white",
   },
   {
     icon: delivery,
@@ -38,24 +38,26 @@ const ChooseMe = () => {
   return (
     <div className="flex justify-center lg:px-10 my-10 lg:my-40">
       <Container fluid>
-        <div className="bg-slate-300 shadow-md lg:p-20 p-10 rounded-2xl">
-          <Row>
-            <Col>
+        <div className="block p-6 bg-gray-300 border-gray-200 rounded-xl shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 lg:p-20">
+          <Row className="gap-y-10">
+            <Col lg={6} md={12} sm={12}>
               <div className="my-10">
-                <h3 className="text-4xl font-semibold">
+                <h3 className="text-4xl max-[480px]:text-2xl font-semibold">
                   Mengapa Memilih Kami?
                 </h3>
               </div>
-              <div className="bg-[#0504DE] w-60 lg:p-8 p-5 h-80 my-5 rounded-2xl">
-                <img
-                  src={img}
-                  alt="banner"
-                  className="rounded-2xl lg:absolute lg:float-right"
-                  width={400}
-                />
+              <div className="lg:ml-7 max-[728px]:ml-8 mt-3">
+                <div className="mockup-phone max-[600px]:hidden">
+                  <div className="camera"></div>
+                  <div className="display">
+                    <div className="artboard artboard-demo phone-1">
+                      <img src={imgMockUP} alt="banner" width={400} />
+                    </div>
+                  </div>
+                </div>
               </div>
             </Col>
-            <Col>
+            <Col lg={6} md={12} sm={12}>
               <div>
                 <Row className="gap-y-10">
                   {features.map((feature, index) => (

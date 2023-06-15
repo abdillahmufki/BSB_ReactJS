@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <>
       <Container fluid className="min-h-fit bg-[#fff] lg:mt-[140px] my-20">
-        <Row className="gap-y-10 lg:px-20">
-          <Col lg={6} sm={12}>
+        <Row className="gap-y-10 lg:px-10">
+          <Col lg={5} md={4} sm={12}>
             <div className="text-center lg:px-3">
               <h3 className="text-2xl max-[600px]:text-lg font-medium my-5">
                 Selamat datang di PT. Buana Selaras Berjaya!
@@ -24,10 +24,7 @@ const Hero = () => {
               <Button text="Contact Us" />
             </div>
           </Col>
-          <Col lg={6} sm={12}>
-            {/* <div className="text-center">
-              <img src={img} alt="hero" className="rounded-2xl" />
-            </div> */}
+          <Col lg={7} md={8} sm={12}>
             <Banner />
           </Col>
         </Row>
