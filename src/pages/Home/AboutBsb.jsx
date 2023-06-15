@@ -16,7 +16,7 @@ const AboutBsb = () => {
     <>
       <Container
         fluid
-        className="bg-blue-800 min-h-full py-10 lg:py-32 px-10 text-white"
+        className="bg-gray-300 min-h-full py-10 lg:py-32 px-10 text-black"
       >
         <div>
           <Swiper

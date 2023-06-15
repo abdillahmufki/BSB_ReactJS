@@ -6,7 +6,7 @@ import Banner from "./Banner";
 const Hero = () => {
   return (
     <>
-      <Container fluid className="min-h-fit bg-[#fff] lg:mt-[120px] my-20">
+      <Container fluid className="min-h-fit bg-[#fff] lg:mt-[140px] my-20">
         <Row className="gap-y-10 lg:px-10">
           <Col lg={5} md={4} sm={12}>
             <div className="text-center lg:px-3">

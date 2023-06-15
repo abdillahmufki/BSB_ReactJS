@@ -4,7 +4,7 @@ import img from "../../assets/images/imgBg.jpg";
 const HeroAbout = () => {
   return (
     <>
-      <Container className="min-h-screen">
+      <Container className="min-h-screen pt-3">
         <div>
           <h1 className="text-4xl text-center my-10 font-bold">About Us</h1>
         </div>

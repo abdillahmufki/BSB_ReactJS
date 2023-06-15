@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 import { quality, delivery, trusted, bestPrice } from "../../assets/icon";
+import imgMockUP from "../../assets/content/mocup.avif";
 
 const features = [
   {
@@ -50,11 +51,7 @@ const ChooseMe = () => {
                   <div className="camera"></div>
                   <div className="display">
                     <div className="artboard artboard-demo phone-1">
-                      <img
-                        src="https://images.unsplash.com/photo-1517146783983-418c681b56c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-                        alt="banner"
-                        width={400}
-                      />
+                      <img src={imgMockUP} alt="banner" width={400} />
                     </div>
                   </div>
                 </div>
