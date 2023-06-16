@@ -45,7 +45,7 @@ const AboutContact = () => {
   return (
     <>
       <div className="px-3">
-        <h2 className="text-2xl text-center font-semibold">
+        <h2 className="text-3xl max-[600px]:text-xl text-center font-semibold">
           Melayani Masyarakat dengan Kualitas dan Pelayanan Terbaik
         </h2>
       </div>
@@ -60,11 +60,11 @@ const AboutContact = () => {
                 <img src={card.image} alt={`${card.title} image`} width={30} />
                 <h2 className="text-xl font-bold">{card.title}</h2>
                 {Array.isArray(card.content) ? (
-                  <ol>
+                  <ul className="list-disc list-outside">
                     {card.content.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
-                  </ol>
+                  </ul>
                 ) : (
                   <p>{card.content}</p>
                 )}

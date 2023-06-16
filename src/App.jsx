@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar, Footer } from "./components";
-import { Home, About, NotFound } from "./pages";
+import { Home, About, Contacts, NotFound, Products } from "./pages";
 
 function App() {
   return (
@@ -10,12 +10,13 @@ function App() {
       <Router>
         <header>
           <Navbar />
-          <Navbar />
         </header>
         <main>
           <Routes>
             <Route path="/" element={<Home />} exact />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contacts />} />
+            <Route path="/products" element={<Products />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

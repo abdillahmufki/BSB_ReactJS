@@ -52,53 +52,44 @@ const Navbar = () => {
             className="menu menu-sm text-base dropdown-content mt-3 p-2 shadow bg-[#000] text-white z-50 rounded-box w-52"
           >
             <li>
-              <Link to="/">
-                <a>Home</a>
-              </Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">
-                <a>About</a>
-              </Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/products">
-                <a>Products</a>
-              </Link>
+              <Link to="/products">Products</Link>
             </li>
             <li>
-              <a>Career</a>
+              <Link to="/products">Career</Link>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">
+
+        <Link to="/">
           <img src={logo} alt="logo" width={100} />
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal text-base px-1">
           <li>
-            <Link to="/">
-              <a>Home</a>
-            </Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">
-              <a>About</a>
-            </Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/products">
-              <a>Products</a>
-            </Link>
+            <Link to="/products">Products</Link>
           </li>
           <li>
-            <a>Career</a>
+            <Link to="/">Career</Link>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <Button text="Contact Us" />
+        <Link to="/contact">
+          <Button>Contact Us</Button>
+        </Link>
       </div>
     </div>
   );

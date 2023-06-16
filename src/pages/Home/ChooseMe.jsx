@@ -38,7 +38,7 @@ const ChooseMe = () => {
   return (
     <div className="flex justify-center lg:px-10 my-10 lg:my-40">
       <Container fluid>
-        <div className="block p-6 bg-gray-300 border-gray-200 rounded-xl shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 lg:p-20">
+        <div className="block p-6 bg-gray-300 border-gray-200 rounded-xl shadow-md lg:p-20">
           <Row className="gap-y-10">
             <Col lg={6} md={12} sm={12}>
               <div className="my-10">

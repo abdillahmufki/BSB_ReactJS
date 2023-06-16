@@ -4,6 +4,7 @@ import HomeProduct from "./Home/HomeProduct";
 import ChooseMe from "./Home/ChooseMe";
 import BrandSection from "./Home/BrandSection";
 import AboutBsb from "./Home/AboutBsb";
+import HomeContact from "./Home/HomeContact";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <ChooseMe />
       <BrandSection />
       <HomeProduct />
+      <HomeContact />
     </div>
   );
 };
