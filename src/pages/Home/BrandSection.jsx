@@ -13,7 +13,7 @@ const BrandSection = () => {
   const brandLogos = [aloha, internal, ilusion, rainbow, ladyrose, vallery];
 
   return (
-    <div className="flex justify-center sm:flex sm:justify-between lg:my-20 bg-slate-300 py-10">
+    <div className="flex justify-center sm:flex sm:justify-between lg:my-20 bg-gray-300 py-10">
       <Container fluid>
         <div className="my-10">
           <h3 className="text-2xl text-center font-medium text-black">

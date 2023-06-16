@@ -18,7 +18,7 @@ const HeroAbout = () => {
                 <h2 className="text-3xl font-bold">Tentang Kami</h2>
               </div> */}
               <div className="my-5">
-                <p className="text-xl text-black">
+                <p className="text-xl max-[600px]:text-lg text-black">
                   PT. Buana Selaras Berjaya bergerak di bidang Distribusi
                   Tekstil khususnya Produk Internal Group. Produk meliputi
                   perlengkapan tidur seperti sprei, bed cover, selimut, karpet,

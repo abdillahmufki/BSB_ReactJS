@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Button";
 import { Container, Row, Col } from "react-grid-system";
 import Banner from "./Banner";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -21,7 +22,9 @@ const Hero = () => {
                 Sprei, bed cover, selimut, dan banyak lagi, semuanya ada di
                 sini.
               </p>
-              <Button text="Contact Us" />
+              <Link to="/contact">
+                <Button>Contact Us</Button>
+              </Link>
             </div>
           </Col>
           <Col lg={7} md={8} sm={12}>

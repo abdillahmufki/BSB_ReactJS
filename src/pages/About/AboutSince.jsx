@@ -40,7 +40,9 @@ const AboutSince = () => {
             tab === selectedTab.tabNumber ? "opacity-100" : "opacity-0"
           } transition-opacity duration-300`}
         >
-          <p className="text-2xl text-black px-10">{selectedTab.content}</p>
+          <p className="text-2xl max-[600px]:text-lg text-black px-10">
+            {selectedTab.content}
+          </p>
         </div>
       </Container>
     );
@@ -58,7 +60,7 @@ const AboutSince = () => {
     >
       <div className="lg:px-[105px] px-2">
         <div className="px-10 py-16 bg-[#ECECEC] shadow-xl rounded-xl">
-          <p className="text-xl text-black">
+          <p className="text-xl max-[600px]:text-lg text-black">
             PT. BSB didirikan untuk menjawab kebutuhan pasar agar distribusi
             Produk Internal menjangkau hingga ke outlet kecil, sehingga
             pelanggan akan diuntungkan karena tim pemasaran kami dapat langsung
