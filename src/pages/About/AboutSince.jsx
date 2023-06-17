@@ -48,6 +48,10 @@ const AboutSince = () => {
     );
   };
 
+  const data = {
+    paragraph:
+      "PT. BSB didirikan untuk menjawab kebutuhan pasar agar distribusi  Produk Internal menjangkau hingga ke outlet kecil, sehingga pelanggan akan diuntungkan karena tim pemasaran kami dapat langsung datang ke outlet untuk menawarkan produk berdasarkan merek, motif, dan ukuran, serta pengirimannya akan langsung kami antarkan ke outlet. Berikut adalah sejarah PT. BSB dari pendiriannya hingga kami memiliki cabang-cabang sebagai berikut:",
+  };
   return (
     <Container
       fluid
@@ -61,13 +65,7 @@ const AboutSince = () => {
       <div className="lg:px-[105px] px-2">
         <div className="px-10 py-16 bg-[#ECECEC] shadow-xl rounded-xl">
           <p className="text-xl max-[600px]:text-lg text-black">
-            PT. BSB didirikan untuk menjawab kebutuhan pasar agar distribusi
-            Produk Internal menjangkau hingga ke outlet kecil, sehingga
-            pelanggan akan diuntungkan karena tim pemasaran kami dapat langsung
-            datang ke outlet untuk menawarkan produk berdasarkan merek, motif,
-            dan ukuran, serta pengirimannya akan langsung kami antarkan ke
-            outlet. Berikut adalah sejarah PT. BSB dari pendiriannya hingga kami
-            memiliki cabang-cabang sebagai berikut:
+            {data.paragraph}
           </p>
         </div>
       </div>

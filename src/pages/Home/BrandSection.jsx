@@ -12,25 +12,24 @@ import {
 const BrandSection = () => {
   const brandLogos = [aloha, internal, ilusion, rainbow, ladyrose, vallery];
 
+  const data = {
+    heading:
+      "Temukan brand-brand terkenal yang siap memberikan Anda pilihan  terbaik dalam koleksi tekstil. Dari brand-brand bergengsi hingga brand-brand yang sedang naik daun, kami menyediakan produk-produk  yang mengikuti tren terbaru dan memenuhi kebutuhan Anda.",
+  };
   return (
     <div className="flex justify-center sm:flex sm:justify-between lg:my-20 bg-gray-300 py-10">
-      <Container fluid>
+      <Container>
         <div className="my-10">
           <h3 className="text-2xl text-center font-medium text-black">
-            Temukan brand-brand terkenal yang siap memberikan Anda pilihan
-            terbaik dalam koleksi tekstil. Dari brand-brand bergengsi hingga
-            brand-brand yang sedang naik daun, kami menyediakan produk-produk
-            yang mengikuti tren terbaru dan memenuhi kebutuhan Anda.
+            {data.heading}
           </h3>
         </div>
-        <Row>
+        <Row className="gap-y-3">
           {brandLogos.map((logo, index) => (
             <Col key={index} lg={2} md={4} sm={6}>
-              <img
-                src={logo}
-                alt="img"
-                className="lg:w-28 w-48 lg:ml-8 md:ml-20 my-5 max-[600px]:ml-20"
-              />
+              <div className="bg-[#f5f5f5] rounded-md shadow-md p-5">
+                <img src={logo} alt="img" width={100} className="ml-3" />
+              </div>
             </Col>
           ))}
         </Row>

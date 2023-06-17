@@ -41,7 +41,7 @@ const AboutBsb = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="px-10">
+              <div className="lg:px-10">
                 <div>
                   <h2 className="text-4xl font-semibold max-[728px]:text-2xl">
                     Glance

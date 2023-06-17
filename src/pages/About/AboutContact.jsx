@@ -12,8 +12,8 @@ const AboutContact = () => {
 
   const missionItems = [
     "Melakukan pemasaran produk secara luas dan merata ke semua kota yang ada di Indonesia.",
-    "Melakukan pemasaran produk secara luas dan merata ke semua kota yang ada di Indonesia.",
-    "Melakukan pemasaran produk secara luas dan merata ke semua kota yang ada di Indonesia.",
+    "Menyediakan produk INTERNAL GRUP secara lengkap dengan model yang up to date.",
+    "Memberikan pelayanan terbaik kepada semua pelanggan.",
   ];
 
   const mottoItems = [

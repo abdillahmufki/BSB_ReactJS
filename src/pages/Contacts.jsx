@@ -12,7 +12,6 @@ const Contacts = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validate form fields
     const errors = {};
     if (!name.trim()) {
       errors.name = "Name is required";
@@ -26,15 +25,11 @@ const Contacts = () => {
       errors.noPhone = "Phone Number is required";
     }
 
-    // If there are errors, set the state and return
     if (Object.keys(errors).length > 0) {
       setErrors(errors);
       return;
     }
 
-    // Perform form submission logic here
-
-    // Reset form fields
     setName("");
     setEmail("");
     setMessage("");
@@ -56,14 +51,7 @@ const Contacts = () => {
       <Container className="mt-[120px] my-[50px]">
         <Row className="p-5 gap-y-10">
           <Col lg={6}>
-            <div
-              className="bg-gradient-to-r from-indigo-900 to-blue-500 py-20 px-10 rounded-md"
-              //   style={{
-              //     backgroundImage: `url(${data.img})`,
-              //     backgroundRepeat: "no-repeat",
-              //     backgroundSize: "cover",
-              //   }}
-            >
+            <div className="bg-gradient-to-r from-indigo-900 to-blue-500 py-20 px-10 rounded-md">
               <h1 className="text-2xl text-white font-semibold">
                 {data.headline}
               </h1>
