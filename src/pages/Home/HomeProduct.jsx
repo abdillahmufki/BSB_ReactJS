@@ -48,16 +48,16 @@ const HomeProduct = () => {
     },
   ];
 
+  const data = {
+    heading:
+      "Kami menawarkan beragam pilihan kain berkualitas tinggi untuk memenuhi kebutuhan berbagai industri, mulai dari fashion hingga dekorasi rumah. Dengan koleksi kain yang beragam, Anda dapat menemukan bahan yang tepat untuk produk Anda.",
+  };
+
   return (
     <div className="flex justify-center my-10 lg:my-20">
       <Container>
         <div className="lg:px-10 my-20">
-          <h2 className="text-2xl font-semibold text-center">
-            Kami menawarkan beragam pilihan kain berkualitas tinggi untuk
-            memenuhi kebutuhan berbagai industri, mulai dari fashion hingga
-            dekorasi rumah. Dengan koleksi kain yang beragam, Anda dapat
-            menemukan bahan yang tepat untuk produk Anda.
-          </h2>
+          <h2 className="text-2xl font-semibold text-center">{data.heading}</h2>
         </div>
         <Row className="gap-y-5">
           {products.map((product, index) => (

@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
 const HomeContact = () => {
@@ -13,56 +13,31 @@ const HomeContact = () => {
           <Col>
             <div className="lg:mt-24">
               <div className="header">
-                <h2 className="text-2xl font-semibold">Kontak Informasi</h2>
+                <h2 className="text-3xl font-semibold ml-5 mb-5">
+                  Kontak Informasi
+                </h2>
               </div>
               <div>
                 <table className="w-full">
                   <tbody>
-                    <tr>
-                      <td className="py-2 px-4">
-                        <FontAwesomeIcon icon={faPhone} className="text-2xl" />
-                      </td>
-                      <td className="py-2 px-4">Call</td>
-                      <td className="py-2 px-4">
-                        <Link to="tel:0226044469" className="hover:underline">
-                          022-6044469
-                        </Link>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="py-2 px-4">
-                        <FontAwesomeIcon
-                          icon={faWhatsapp}
-                          className="text-2xl"
-                        />
-                      </td>
-                      <td className="py-2 px-4">Whatsapp</td>
-                      <td className="py-2 px-4">
-                        <Link
-                          to="tel:+62 811 2270 1207"
-                          className="hover:underline"
-                        >
-                          0811-2270-1207
-                        </Link>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="py-2 px-4">
-                        <FontAwesomeIcon
-                          icon={faEnvelope}
-                          className="text-2xl"
-                        />
-                      </td>
-                      <td className="py-2 px-4">Email</td>
-                      <td className="py-2 px-4">
-                        <Link
-                          to="admsales.bdg@buanaselarasberjaya.com"
-                          className="hover:underline"
-                        >
-                          admsales.bdg@buanaselarasberjaya.com
-                        </Link>
-                      </td>
-                    </tr>
+                    {renderContactItem(
+                      faPhone,
+                      "Call",
+                      "022-6044469",
+                      "tel:0226044469"
+                    )}
+                    {renderContactItem(
+                      faWhatsapp,
+                      "Whatsapp",
+                      "0811-2270-1207",
+                      "tel:+6281122701207"
+                    )}
+                    {renderContactItem(
+                      faEnvelope,
+                      "Email",
+                      "admsales.bdg@buanaselarasberjaya.com",
+                      "mailto:admsales.bdg@buanaselarasberjaya.com"
+                    )}
                   </tbody>
                 </table>
               </div>
@@ -84,6 +59,22 @@ const HomeContact = () => {
         </Row>
       </Container>
     </div>
+  );
+};
+
+const renderContactItem = (icon, title, value, link) => {
+  return (
+    <tr>
+      <td className="py-2 px-4">
+        <FontAwesomeIcon icon={icon} className="text-2xl" />
+      </td>
+      <td className="py-2 px-4">{title}</td>
+      <td className="py-2 px-4">
+        <Link to={link} className="hover:underline">
+          {value}
+        </Link>
+      </td>
+    </tr>
   );
 };
 

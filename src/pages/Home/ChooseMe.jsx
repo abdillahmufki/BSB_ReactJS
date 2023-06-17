@@ -34,6 +34,10 @@ const features = [
   },
 ];
 
+const data = {
+  heading: "Mengapa Memilih Kami?",
+};
+
 const ChooseMe = () => {
   return (
     <div className="flex justify-center lg:px-10 my-10 lg:my-40">
@@ -43,7 +47,7 @@ const ChooseMe = () => {
             <Col lg={6} md={12} sm={12}>
               <div className="my-10">
                 <h3 className="text-4xl max-[480px]:text-2xl font-semibold">
-                  Mengapa Memilih Kami?
+                  {data.heading}
                 </h3>
               </div>
               <div className="lg:ml-7 max-[728px]:ml-8 mt-3">
