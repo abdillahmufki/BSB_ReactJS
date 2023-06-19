@@ -52,16 +52,16 @@ const Navbar = () => {
             className="menu menu-sm text-base dropdown-content mt-3 p-2 shadow bg-[#000] text-white z-50 rounded-box w-52"
           >
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Beranda</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about">Tentang Kami</Link>
             </li>
             <li>
-              <Link to="/products">Products</Link>
+              <Link to="/products">Produk</Link>
             </li>
             <li>
-              <Link to="/products">Career</Link>
+              <Link to="https://digitalcv.id/bsb/">Karir</Link>
             </li>
           </ul>
         </div>
@@ -73,22 +73,22 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal text-base px-1">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Beranda</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">Tentang Kami</Link>
           </li>
           <li>
-            <Link to="/products">Products</Link>
+            <Link to="/products">Produk</Link>
           </li>
           <li>
-            <Link to="/">Career</Link>
+            <Link to="https://digitalcv.id/bsb/">Karir</Link>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
         <Link to="/contact">
-          <Button>Contact Us</Button>
+          <Button>Kontak Kami</Button>
         </Link>
       </div>
     </div>

@@ -16,13 +16,7 @@ const AboutContact = () => {
     "Memberikan pelayanan terbaik kepada semua pelanggan.",
   ];
 
-  const mottoItems = [
-    "Integritas",
-    "Responsif",
-    "Komunikatif",
-    "Komunikatif",
-    "Terpercaya",
-  ];
+  const mottoItems = ["Integritas", "Responsif", "Komunikatif", "Terpercaya"];
 
   const cardData = [
     {

@@ -25,14 +25,14 @@ const HomeProduct = () => {
     {
       link: "#",
       imageUrl: blanket,
-      title: "Blanket",
+      title: "Selimut",
       text: "Internal",
     },
     {
       link: "#",
       imageUrl: karpet,
       title: "Karpet",
-      text: "Rose",
+      text: "Lady Rose",
     },
     {
       link: "#",
@@ -44,7 +44,7 @@ const HomeProduct = () => {
       link: "#",
       imageUrl: keset,
       title: "Keset",
-      text: "Quincy",
+      text: "Vallery Quincy",
     },
   ];
 

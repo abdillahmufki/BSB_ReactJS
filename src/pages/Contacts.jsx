@@ -40,9 +40,8 @@ const Contacts = () => {
   const data = {
     headline: "Terhubunglah dengan Kami",
     Subheadline:
-      "Bicarakan ide-ide Anda, tanyakan pertanyaan, atau sapa kami. Kami di sini untuk membantu dan memberikan informasi yang Anda perlukan. Isi formulir di bawah ini, dan kami akan merespons dengan cepat.",
-    description:
-      "Hubungi kami untuk membahas ide-ide Anda, mengajukan pertanyaan, atau hanya sekadar menyapa. Kami siap membantu dan memberikan informasi yang Anda butuhkan. Isi formulir di bawah ini, dan kami akan segera merespons Anda.",
+      "Bicarakan ide-ide Anda, tanyakan pertanyaan, atau sapa kami. Kami di sini untuk membantu dan memberikan informasi yang Anda perlukan. Isi formulir berikut ini, dan kami akan merespons dengan cepat.",
+
     img: "https://images.unsplash.com/photo-1601056639638-c53c50e13ead?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
   };
 
@@ -56,7 +55,6 @@ const Contacts = () => {
                 {data.headline}
               </h1>
               <h2 className="text-xl text-white my-3">{data.Subheadline}</h2>
-              <p className="text-white">{data.description}</p>
             </div>
           </Col>
           <Col lg={6}>

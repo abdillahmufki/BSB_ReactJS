@@ -30,7 +30,7 @@ const Footer = () => {
       </footer>
       <footer className="footer p-10 bg-neutral text-neutral-content flex justify-center">
         <p className="text-center">
-          Copyright © 2023 Gestalt Systech. All rights reserved
+          Copyright © 2023 PT. Buana Selaras Berjaya. All rights reserved
         </p>
       </footer>
     </>
