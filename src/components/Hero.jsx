@@ -23,7 +23,7 @@ const Hero = () => {
                 sini.
               </p>
               <Link to="/contact">
-                <Button>Contact Us</Button>
+                <Button>Kontak Kami</Button>
               </Link>
             </div>
           </Col>
