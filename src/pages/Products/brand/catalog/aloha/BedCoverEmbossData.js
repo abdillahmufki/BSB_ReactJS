@@ -8,7 +8,7 @@ import Grey from "../../../../../assets/catalogue/itg_aloha/bcemboss/Grey.jpg";
 import Hawaian_Blue from "../../../../../assets/catalogue/itg_aloha/bcemboss/Hawaian_Blue.jpg";
 import Light_Blue from "../../../../../assets/catalogue/itg_aloha/bcemboss/Light_Blue.jpg";
 import Light_Purple from "../../../../../assets/catalogue/itg_aloha/bcemboss/Light_Purple.jpg";
-import Maroon from "../../../../../assets/catalogue/itg_aloha/bcemboss/maroon.jpg";
+import Maroon from "../../../../../assets/catalogue/itg_aloha/bcemboss/Maroon.jpg";
 import Olive from "../../../../../assets/catalogue/itg_aloha/bcemboss/Olive.jpg";
 import Orange from "../../../../../assets/catalogue/itg_aloha/bcemboss/Orange.jpg";
 import Pink from "../../../../../assets/catalogue/itg_aloha/bcemboss/Pink.jpg";
