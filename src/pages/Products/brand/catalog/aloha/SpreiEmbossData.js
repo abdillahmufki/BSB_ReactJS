@@ -6,7 +6,7 @@ import Dark_Pink from "../../../../../assets/catalogue/itg_aloha/spemboss/Dark_P
 import Golden from "../../../../../assets/catalogue/itg_aloha/spemboss/Golden.jpg";
 import Grey from "../../../../../assets/catalogue/itg_aloha/spemboss/Grey.jpg";
 import Hawaian_Blue_ from "../../../../../assets/catalogue/itg_aloha/spemboss/Hawaian_Blue_.jpg";
-import Light_purple from "../../../../../assets/catalogue/itg_aloha/spemboss/Light_purple.jpg";
+import Light_purple from "../../../../../assets/catalogue/itg_aloha/spemboss/Light_Purple.jpg";
 import Light_Blue from "../../../../../assets/catalogue/itg_aloha/spemboss/Light_Blue.jpg";
 import Maroon from "../../../../../assets/catalogue/itg_aloha/spemboss/Maroon.jpg";
 import Olive_ from "../../../../../assets/catalogue/itg_aloha/spemboss/Olive_.jpg";
