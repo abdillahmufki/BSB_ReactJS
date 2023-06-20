@@ -20,7 +20,7 @@ const AboutSince = () => {
       tabNumber: 2,
       title: "2019",
       content:
-        "Pada tahun 2019, kami melangkah lebih jauh dengan membuka cabang baru di Jawa Tengah. Cabang tersebut berada di dua lokasi strategis, yaitu Pekalongan dan Yogya. Dengan membuka cabang ini, kami dapat lebih mendekatkan diri dengan pelanggan di wilayah tersebut dan memberikan pelayanan yang lebih cepat dan efisien.",
+        "Pada tahun 2019, kami melangkah lebih jauh dengan membuka cabang baru di Jawa Tengah dan Daerah Istimewa Yogyakarta. Cabang tersebut berada di dua lokasi strategis, yaitu Pekalongan dan Yogya. Dengan membuka cabang ini, kami dapat lebih mendekatkan diri dengan pelanggan di wilayah tersebut dan memberikan pelayanan yang lebih cepat dan efisien.",
     },
     {
       tabNumber: 3,

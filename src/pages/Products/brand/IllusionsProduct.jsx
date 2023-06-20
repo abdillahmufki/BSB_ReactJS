@@ -1,7 +1,7 @@
 import React from "react";
 
-const IllusionsProducts = () => {
+const IllusionsProduct = () => {
   return <div>IllusionsProducts</div>;
 };
 
-export default IllusionsProducts;
+export default IllusionsProduct;
