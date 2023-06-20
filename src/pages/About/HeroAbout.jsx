@@ -10,7 +10,7 @@ const HeroAbout = () => {
     <>
       <Container className="min-h-screen pt-3">
         <div>
-          <h1 className="text-4xl text-center my-10 font-bold">About Us</h1>
+          <h1 className="text-4xl text-center my-10 font-bold">Tentang Kami</h1>
         </div>
         <Row className="gap-y-8">
           <Col lg={6} md={6} sm={12}>

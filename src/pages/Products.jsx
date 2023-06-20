@@ -1,18 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-grid-system";
-
-const Prodcuts = () => {
+import HeroProducts from "./Products/HeroProducts";
+import AllBrandProducts from "./Products/AllBrandProducts";
+const Products = () => {
   return (
-    <>
-      <Container className="mt-[120px] flex justify-center min-h-screen">
-        <Row>
-          <Col>
-            <h1>Products</h1>
-          </Col>
-        </Row>
-      </Container>
-    </>
+    <div className="mt-[80px]">
+      <HeroProducts />
+      <AllBrandProducts />
+    </div>
   );
 };
 
-export default Prodcuts;
+export default Products;
