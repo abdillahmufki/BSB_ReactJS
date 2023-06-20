@@ -19,7 +19,7 @@ import Meriska from "../../../../../assets/catalogue/itg_aloha/bcmotif/Meriska.j
 import Monica from "../../../../../assets/catalogue/itg_aloha/bcmotif/Monica.jpg";
 import Naomi from "../../../../../assets/catalogue/itg_aloha/bcmotif/Naomi.jpg";
 import Norin from "../../../../../assets/catalogue/itg_aloha/bcmotif/Norin.jpg";
-import pineapple from "../../../../../assets/catalogue/itg_aloha/bcmotif/pineapple.jpg";
+import pineapple from "../../../../../assets/catalogue/itg_aloha/bcmotif/Pineapple.jpg";
 import Rumi from "../../../../../assets/catalogue/itg_aloha/bcmotif/Rumi.jpg";
 import Sisca from "../../../../../assets/catalogue/itg_aloha/bcmotif/Sisca.jpg";
 import Torino from "../../../../../assets/catalogue/itg_aloha/bcmotif/Torino.jpg";
