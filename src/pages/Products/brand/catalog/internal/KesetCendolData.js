@@ -7,7 +7,7 @@ import DivaBlue from "../../../../../assets/catalogue/itg_internal/kesetcendol/D
 import LightBrown from "../../../../../assets/catalogue/itg_internal/kesetcendol/Light_Brown.jpg";
 import LightPurple from "../../../../../assets/catalogue/itg_internal/kesetcendol/Light_Purple.jpg";
 import Navy from "../../../../../assets/catalogue/itg_internal/kesetcendol/navy.jpg";
-import red from "../../../../../assets/catalogue/itg_internal/kesetcendol/red.jpg";
+import red from "../../../../../assets/catalogue/itg_internal/kesetcendol/Red.jpg";
 
 const KesetCendolData = [
   {
