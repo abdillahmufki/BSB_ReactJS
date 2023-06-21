@@ -4,6 +4,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar, Footer } from "./components";
 import { Home, About, Contacts, NotFound, Products } from "./pages";
 import AlohaProduct from "./pages/Products/brand/AlohaProduct";
+import IllusionsProduct from "./pages/Products/brand/IllusionsProducts";
+import InternalProduct from "./pages/Products/brand/InternalProducts";
+import LadyRoseProduct from "./pages/Products/brand/LadyroseProducts";
+// import ValleryProduct from "./pages/Products/brand/ValleryquicyProducts";
 
 function App() {
   return (
@@ -22,6 +26,9 @@ function App() {
 
             {/* Route brand */}
             <Route path="/aloha" element={<AlohaProduct />} />
+            <Route path="/illusion" element={<IllusionsProduct />} />
+            <Route path="/internal" element={<InternalProduct />} />
+            <Route path="/ladyrose" element={<LadyRoseProduct />} />
           </Routes>
         </main>
         <footer>

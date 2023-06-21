@@ -1,14 +1,11 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from "react";
-import imageLogo from "../../../assets/brand-logo/aloha.png";
 import { Container, Row, Col } from "react-grid-system";
+import banner from "../../../assets/banner/01.jpg";
+import imageLogo from "../../../assets/brand-logo/aloha.png";
 import bedCover from "../../../assets/category/bc.png";
 import sprei from "../../../assets/category/sprei.png";
 import spreiSinggle from "../../../assets/category/spsingle.png";
-import bedCoverImageMotif from "../../../assets/category/motif.png";
-import bedCoverImageEmbos from "../../../assets/category/emboss.png";
-
-import banner from "../../../assets/banner/01.jpg";
-/* Component */
 import BedCoverMotif from "./catalog/aloha/BedCoverMotif";
 import BedCoverEmbos from "./catalog/aloha/BedCoverEmbos";
 import SpreiMotif from "./catalog/aloha/SpreiMotif";
@@ -16,127 +13,95 @@ import SpreiEmboss from "./catalog/aloha/SpreiEmboss";
 import SpreiSinggleMotif from "./catalog/aloha/SpreiSinggleMotif";
 import SpreiSinggleEmboss from "./catalog/aloha/SpreiSinggleEmboss";
 
-const AlohaProduct = () => {
-  const [selectedType, setSelectedType] = useState(null);
-  const [selectedSubType, setSelectedSubType] = useState(null);
+const Banner = ({ bannerImage, logoImage }) => {
+  return (
+    <div
+      className="md:min-h-screen w-screen bg-cover bg-center bg-no-repeat relative"
+      style={{ backgroundImage: `url(${bannerImage})` }}
+    >
+      <div className="pt-28 flex justify-center">
+        <img
+          src={logoImage}
+          alt="logo brand"
+          className="w-auto max-[600px]:w-16 absolute bottom-0"
+        />
+      </div>
+    </div>
+  );
+};
 
-  const category = [
-    {
-      name: "Bed Cover",
-      image: bedCover,
-      subTypes: ["Bed Cover Motif", "Bed Cover Emboss"],
-      imageTypes: [bedCoverImageMotif, bedCoverImageEmbos],
-    },
-    {
-      name: "Sprei",
-      image: sprei,
-      subTypes: ["Sprei Motif", "Sprei Emboss"],
-      imageTypes: [bedCoverImageMotif, bedCoverImageEmbos],
-    },
-    {
-      name: "Sprei Single",
-      image: spreiSinggle,
-      subTypes: ["Sprei Single Motif", "Sprei Single Emboss"],
-      imageTypes: [bedCoverImageMotif, bedCoverImageEmbos],
-    },
+const AlohaProduct = () => {
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
+  const handleProductClick = (product) => {
+    setSelectedProduct(product);
+  };
+
+  const renderProductComponent = () => {
+    switch (selectedProduct) {
+      case "Bed Cover":
+        return (
+          <>
+            <BedCoverMotif />
+            <BedCoverEmbos />
+          </>
+        );
+      case "Sprei":
+        return (
+          <>
+            <SpreiMotif />
+            <SpreiEmboss />
+          </>
+        );
+      case "Sprei Singgle":
+        return (
+          <>
+            <SpreiSinggleMotif />
+            <SpreiSinggleEmboss />
+          </>
+        );
+      default:
+        return null;
+    }
+  };
+
+  const products = [
+    { name: "Bed Cover", image: bedCover },
+    { name: "Sprei", image: sprei },
+    { name: "Sprei Singgle", image: spreiSinggle },
   ];
 
-  const handleCategoryClick = (name) => {
-    setSelectedType(name);
-    setSelectedSubType(null);
-  };
-
-  const handleSubTypeClick = (subType) => {
-    setSelectedSubType(subType);
-  };
-
   return (
-    <Container fluid className="mt-[90px] ">
-      <div
-        className="md:min-h-screen w-full bg-cover bg-center bg-no-repeat relative"
-        style={{ backgroundImage: `url(${banner})` }}
-      >
+    <Container fluid className="mt-[90px] min-h-screen">
+      <Row>
         {" "}
-        <div className="flex justify-center pt-28">
-          <img
-            src={imageLogo}
-            alt="logo brand"
-            className="w-auto max-[600px]:w-16"
-          />
-        </div>
-      </div>
-      <Row className="py-10">
-        <Col
-          lg={12}
-          md={12}
-          sm={12}
-          className="bg-cover bg-center bg-no-repeat"
-        ></Col>
-        <Col lg={12} md={12} sm={12}>
-          {/* {selectedType && (
-            <div className="flex justify-center py-10 text-center">
-              <h2 className="text-2xl font-bold">{selectedType}</h2>
-            </div>
-          )} */}
-          {selectedType && selectedSubType === "Bed Cover Motif" && (
-            <BedCoverMotif />
-          )}
-          {selectedType && selectedSubType === "Bed Cover Emboss" && (
-            <BedCoverEmbos />
-          )}
-          {selectedType && selectedSubType === "Sprei Motif" && <SpreiMotif />}
-          {selectedType && selectedSubType === "Sprei Emboss" && (
-            <SpreiEmboss />
-          )}
-          {selectedType && selectedSubType === "Sprei Single Motif" && (
-            <SpreiSinggleMotif />
-          )}
-          {selectedType && selectedSubType === "Sprei Single Emboss" && (
-            <SpreiSinggleEmboss />
-          )}
-          {selectedType && !selectedSubType && (
-            <div className="flex justify-center py-10 gap-x-5 text-center">
-              {category
-                .find((item) => item.name === selectedType)
-                .subTypes.map((subType, index) => (
-                  <div
-                    key={index}
-                    className="bg-[#fff] lg:w-56 rounded-lg shadow-xl p-5"
-                    onClick={() => handleSubTypeClick(subType)}
-                  >
-                    <img
-                      src={
-                        category.find((item) => item.name === selectedType)
-                          .imageTypes[index]
-                      }
-                      alt={subType}
-                    />
-                    <p>{subType}</p>
-                  </div>
-                ))}
-            </div>
-          )}
-          {!selectedType && (
-            <div className="flex justify-center py-10 gap-x-5 text-center">
-              {category.map((item, index) => (
+        <Banner bannerImage={banner} logoImage={imageLogo} />
+      </Row>
+      <Col lg={12} className="my-28">
+        <div className="text-base flex justify-center font-bold text-gray-500 cursor-pointer text-center">
+          <Row className="gap-y-5">
+            {products.map((product, index) => (
+              <Col key={index} lg={4} md={4} sm={12}>
                 <div
-                  key={index}
-                  className="bg-[#fff] lg:w-56 rounded-lg shadow-xl p-5 hover:scale-110 ease-in duration-150 font-semibold text-gray-700"
-                  onClick={() => handleCategoryClick(item.name)}
+                  className="bg-[#f5f5f5] shadow-md rounded-xl p-10 w-48 hover:scale-110 ease-in duration-200"
+                  onClick={() => handleProductClick(product.name)}
                 >
                   <img
-                    src={item.image}
+                    src={product.image}
+                    alt="icon"
                     width={100}
-                    alt="category image"
-                    className="lg:ml-10"
+                    className="ml-1"
                   />
-                  <p>{item.name}</p>
+                  <h2>{product.name}</h2>
                 </div>
-              ))}
-            </div>
-          )}
-        </Col>
-      </Row>
+              </Col>
+            ))}
+          </Row>
+        </div>
+      </Col>
+      {selectedProduct && (
+        <div className="product-component">{renderProductComponent()}</div>
+      )}
     </Container>
   );
 };
