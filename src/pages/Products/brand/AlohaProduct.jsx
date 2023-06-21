@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "react-grid-system";
 import banner from "../../../assets/banner/01.jpg";
 import imageLogo from "../../../assets/brand-logo/aloha.png";
-import bedCover from "../../../assets/category/bc.png";
-import sprei from "../../../assets/category/sprei.png";
-import spreiSinggle from "../../../assets/category/spsingle.png";
+import bedCover from "../../../assets/category/sprei1.png";
+import sprei from "../../../assets/category/bed1.png";
+import spreiSinggle from "../../../assets/category/singlebed.png";
 import BedCoverMotif from "./catalog/aloha/BedCoverMotif";
 import BedCoverEmbos from "./catalog/aloha/BedCoverEmbos";
 import SpreiMotif from "./catalog/aloha/SpreiMotif";
@@ -89,8 +89,8 @@ const AlohaProduct = () => {
                   <img
                     src={product.image}
                     alt="icon"
-                    width={100}
-                    className="ml-1"
+                    width={64}
+                    className="ml-5 mb-5"
                   />
                   <h2>{product.name}</h2>
                 </div>
