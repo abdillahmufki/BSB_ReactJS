@@ -28,7 +28,7 @@ import Kitty_Cake from "../../../../../assets/catalogue/itg_lady_rose/balmut/Kit
 import Kitty_Cappucino from "../../../../../assets/catalogue/itg_lady_rose/balmut/Kitty_Cappucino.jpg";
 import Lena from "../../../../../assets/catalogue/itg_lady_rose/balmut/Lena.jpg";
 import Leon from "../../../../../assets/catalogue/itg_lady_rose/balmut/Leon.jpg";
-import Little_pony from "../../../../../assets/catalogue/itg_lady_rose/balmut/Little_pony.jpg";
+import Little_pony from "../../../../../assets/catalogue/itg_lady_rose/balmut/Little_Pony.jpg";
 import Little_Twin_Stars from "../../../../../assets/catalogue/itg_lady_rose/balmut/Little_Twin_Stars.jpg";
 import LOL from "../../../../../assets/catalogue/itg_lady_rose/balmut/LOL.jpg";
 import Lolita from "../../../../../assets/catalogue/itg_lady_rose/balmut/Lolita.jpg";
