@@ -10,7 +10,7 @@ import Jessie from "../../../../../assets/catalogue/itg_illusions/bc/Jessie.jpg"
 import Joanna from "../../../../../assets/catalogue/itg_illusions/bc/Joanna.jpg";
 import Juno from "../../../../../assets/catalogue/itg_illusions/bc/Juno.jpg";
 import Lexy from "../../../../../assets/catalogue/itg_illusions/bc/Lexy.jpg";
-import Light_star_ from "../../../../../assets/catalogue/itg_illusions/bc/Light_star_.jpg";
+import Light_star_ from "../../../../../assets/catalogue/itg_illusions/bc/Light_Star_.jpg";
 import Luna from "../../../../../assets/catalogue/itg_illusions/bc/Luna.jpg";
 import Magnolia from "../../../../../assets/catalogue/itg_illusions/bc/Magnolia.jpg";
 import Marsha from "../../../../../assets/catalogue/itg_illusions/bc/Marsha.jpg";
