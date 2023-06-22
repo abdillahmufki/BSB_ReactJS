@@ -4,7 +4,7 @@ import Alodia from "../../../../../assets/catalogue/itg_lady_rose/balmut/Alodia.
 import Anela from "../../../../../assets/catalogue/itg_lady_rose/balmut/Anela.jpg";
 import AstroBear from "../../../../../assets/catalogue/itg_lady_rose/balmut/Astrobear.jpg";
 import banda from "../../../../../assets/catalogue/itg_lady_rose/balmut/Banda.jpg";
-import batman from "../../../../../assets/catalogue/itg_lady_rose/balmut/batman.jpg";
+import batman from "../../../../../assets/catalogue/itg_lady_rose/balmut/Batman.jpg";
 import Celine from "../../../../../assets/catalogue/itg_lady_rose/balmut/Celine.jpg";
 import Chelsea_Blue from "../../../../../assets/catalogue/itg_lady_rose/balmut/Chelsea_Blue.jpg";
 import Dawson from "../../../../../assets/catalogue/itg_lady_rose/balmut/Dawson.jpg";
