@@ -17,14 +17,14 @@ const AllBrandProducts = () => {
       path: "/aloha",
     },
     {
-      name: "Internal",
-      logo: internal,
-      path: "/internal",
-    },
-    {
       name: "Illusion",
       logo: ilusion,
       path: "/illusion",
+    },
+    {
+      name: "Internal",
+      logo: internal,
+      path: "/internal",
     },
     {
       name: "Lady Rose",
