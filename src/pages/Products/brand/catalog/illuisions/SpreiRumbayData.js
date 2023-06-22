@@ -1,6 +1,6 @@
 import Arilla from "../../../../../assets/catalogue/itg_illusions/sprumbay/Arilla.jpg";
 import Disty from "../../../../../assets/catalogue/itg_illusions/sprumbay/Disty.jpg";
-import Helma from "../../../../../assets/catalogue/itg_illusions/sprumbay/Helma.jpg";
+import Helma from "../../../../../assets/catalogue/itg_illusions/sprumbay/helma.jpg";
 import Indira from "../../../../../assets/catalogue/itg_illusions/sprumbay/Indira.jpg";
 import Jessie from "../../../../../assets/catalogue/itg_illusions/sprumbay/Jessie.jpg";
 import Joanna from "../../../../../assets/catalogue/itg_illusions/sprumbay/Joanna.jpg";
