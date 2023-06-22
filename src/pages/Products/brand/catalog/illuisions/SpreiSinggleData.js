@@ -10,7 +10,7 @@ import Jessie from "../../../../../assets/catalogue/itg_illusions/spsingle/Jessi
 import Joanna from "../../../../../assets/catalogue/itg_illusions/spsingle/Joanna.jpg";
 import Aston from "../../../../../assets/catalogue/itg_illusions/spsingle/Aston.jpg";
 import Lexy from "../../../../../assets/catalogue/itg_illusions/spsingle/Lexy.jpg";
-import Light_star_ from "../../../../../assets/catalogue/itg_illusions/spsingle/Light_star.jpg";
+import Light_star_ from "../../../../../assets/catalogue/itg_illusions/spsingle/Light_Star.jpg";
 import Luna from "../../../../../assets/catalogue/itg_illusions/spsingle/Luna.jpg";
 import Magnolia from "../../../../../assets/catalogue/itg_illusions/spsingle/magnolia.jpg";
 import Marcel from "../../../../../assets/catalogue/itg_illusions/spsingle/Marcel.jpg";
