@@ -1,6 +1,5 @@
 import Arilla from "../../../../../assets/catalogue/itg_illusions/sprumbay/Arilla.jpg";
 import Disty from "../../../../../assets/catalogue/itg_illusions/sprumbay/Disty.jpg";
-import Febiola from "../../../../../assets/catalogue/itg_illusions/sprumbay/Febiola.jpg";
 import Helma from "../../../../../assets/catalogue/itg_illusions/sprumbay/Helma.jpg";
 import Indira from "../../../../../assets/catalogue/itg_illusions/sprumbay/Indira.jpg";
 import Jessie from "../../../../../assets/catalogue/itg_illusions/sprumbay/Jessie.jpg";
@@ -28,12 +27,6 @@ const SpreiRUmbayData = [
     name: "Disty",
     alt: "Disty",
     src: Disty,
-    type: "Sprei Rumbay",
-  },
-  {
-    name: "Febiola",
-    alt: "Febiola",
-    src: Febiola,
     type: "Sprei Rumbay",
   },
   {
