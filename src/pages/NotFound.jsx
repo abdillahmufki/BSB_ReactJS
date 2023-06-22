@@ -10,7 +10,7 @@ const NotFound = () => {
         <div className="max-w-md">
           <img src={image} className="mb-10" alt="error image" width={500} />
           <Link to="/">
-            <Button text="Back to Home" />
+            <Button>Back to Home</Button>
           </Link>
         </div>
       </div>
