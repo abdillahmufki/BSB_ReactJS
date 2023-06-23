@@ -15,17 +15,36 @@ import spreiRumbay from "../../../assets/category/rumbai.png";
 import spreisingle from "../../../assets/category/sprei-single.png";
 import rbb from "../../../assets/category/rbb.png";
 
-import { BalmutProduct } from "./catalog/ladyrose";
+import {
+  BalmutProduct,
+  BalmutNewProduct,
+  BedCover,
+  BedCoverNewProduct,
+  BedCoverSingle,
+  BedCoverSingleNew,
+  BlanketProduct,
+  BlanketProductNew,
+  KarpetProduct,
+  SpreiProduct,
+  SpreiProductNew,
+  SpreiTwoInOneProduct,
+  SpreiTwoInOneProductNew,
+  SpreiRumbayProduct,
+  SpreiRumbayProductNew,
+  SpreiSingleProduct,
+  SpreiSinggleNew,
+  RbbProduct,
+} from "./catalog/ladyrose";
 
 const Banner = ({ bannerImage, logoImage }) => {
   return (
     <div
-      className="min-h-screen w-screen bg-cover bg-no-repeat relative mt-20"
+      className="relative mt-20 min-h-screen w-screen bg-cover bg-no-repeat"
       style={{ backgroundImage: `url(${bannerImage})` }}
     >
-      <div className="pt-36 flex justify-center">
-        <div className="bg-white p-5 rounded-md shadow-md absolute bottom-10">
-          <img src={logoImage} alt="logo brand" className="w-auto max-w-16" />
+      <div className="flex justify-center pt-36">
+        <div className="absolute bottom-10 rounded-md bg-white p-5 shadow-md">
+          <img src={logoImage} alt="logo brand" className="max-w-16 w-auto" />
         </div>
       </div>
     </div>
@@ -44,7 +63,69 @@ const InternalProducts = () => {
       case "Balmut":
         return (
           <>
+            <BalmutNewProduct />
             <BalmutProduct />
+          </>
+        );
+      case "Bed Cover":
+        return (
+          <>
+            <BedCoverNewProduct />
+            <BedCover />
+          </>
+        );
+      case "Bed Cover Single":
+        return (
+          <>
+            <BedCoverSingleNew />
+            <BedCoverSingle />
+          </>
+        );
+      case "Blanket":
+        return (
+          <>
+            <BlanketProductNew />
+            <BlanketProduct />
+          </>
+        );
+      case "Karpet":
+        return (
+          <>
+            <KarpetProduct />
+          </>
+        );
+      case "Sprei":
+        return (
+          <>
+            <SpreiProductNew />
+            <SpreiProduct />
+          </>
+        );
+      case "Sprei 2 in 1":
+        return (
+          <>
+            <SpreiTwoInOneProductNew />
+            <SpreiTwoInOneProduct />
+          </>
+        );
+      case "Sprei Rumbay":
+        return (
+          <>
+            <SpreiRumbayProductNew />
+            <SpreiRumbayProduct />
+          </>
+        );
+      case "Sprei Single":
+        return (
+          <>
+            <SpreiSinggleNew />
+            <SpreiSingleProduct />
+          </>
+        );
+      case "RBB":
+        return (
+          <>
+            <RbbProduct />
           </>
         );
       default:
@@ -68,18 +149,18 @@ const InternalProducts = () => {
   return (
     <div className="mt-90 overflow-hidden">
       <Banner bannerImage={banner} logoImage={imageLogo} />
-      <div className="flex justify-center gap-x-5 my-24 text-center font-bold">
-        <div className="grid grid-cols-2 px-5 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-8 justify-center items-center">
+      <div className="my-24 flex justify-center gap-x-5 text-center font-bold">
+        <div className="grid grid-cols-2 items-center justify-center gap-8 px-5 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5">
           {products.map((product, index) => (
             <div
               key={index}
-              className="lg:col-span-1 bg-[#f5f5f5] shadow-md rounded-xl lg:p-5 p-3 ml-5 hover:scale-110 ease-in duration-200 cursor-pointer"
+              className="ml-5 cursor-pointer rounded-xl bg-[#f5f5f5] p-3 shadow-md duration-200 ease-in hover:scale-110 lg:col-span-1 lg:p-5"
               onClick={() => handleProductClick(product.name)}
             >
               <img
                 src={product.image}
                 alt="icon"
-                className="w-14 lg:ml-10 mb-3 max-[600px]:w-10 max-[600px]:ml-9"
+                className="mb-3 w-14 max-[600px]:ml-9 max-[600px]:w-10 lg:ml-10"
               />
               <h2>{product.name}</h2>
             </div>
