@@ -10,7 +10,6 @@ import delia from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/delia.
 import Doraemon_Comic from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/doraemon_comic.jpg";
 import Doraemon_hopter from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/doraemon_hopter.jpg";
 import Felix from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Felix.jpg";
-import Ferren from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Ferren.jpg";
 import Flamingo from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Flamingo.jpg";
 import furr from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/furr.jpg";
 import GC from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/GC.jpg";
@@ -111,12 +110,6 @@ export const BedCoverSingleData = [
     name: "Felix",
     alt: "Felix",
     src: Felix,
-    type: "Bed Cover Single",
-  },
-  {
-    name: "Ferren",
-    alt: "Ferren",
-    src: Ferren,
     type: "Bed Cover Single",
   },
   {
