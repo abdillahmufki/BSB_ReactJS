@@ -15,7 +15,6 @@ import GC from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/GC.jpg";
 import Kitty_Cake from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kitty_Cake.jpg";
 import Leon from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Leon.jpg";
 import Lolita from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/lolita.jpg";
-import Monstera from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Monstera.jpg";
 import MU_Red from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/MU_Red.jpg";
 import Parisian from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Parisian.jpg";
 import Peter from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Peter.jpg";
@@ -134,12 +133,6 @@ export const BedCoverSingleData = [
     name: "Lolita",
     alt: "Lolita",
     src: Lolita,
-    type: "Bed Cover Single",
-  },
-  {
-    name: "Monstera",
-    alt: "Monstera",
-    src: Monstera,
     type: "Bed Cover Single",
   },
   {
