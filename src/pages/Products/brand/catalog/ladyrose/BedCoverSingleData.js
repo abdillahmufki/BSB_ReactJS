@@ -12,7 +12,6 @@ import Doraemon_hopter from "../../../../../assets/catalogue/itg_lady_rose/bcsin
 import Felix from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Felix.jpg";
 import furr from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/furr.jpg";
 import GC from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/GC.jpg";
-import Kerokeroppi from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kerokeroppi.jpg";
 import Keroppi_Chef from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Keroppi_Chef.jpg";
 import Kitty_Cake from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kitty_Cake.jpg";
 import Kitty_Cappucino from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kitty_Cappucino.jpg";
@@ -121,12 +120,6 @@ export const BedCoverSingleData = [
     name: "GC",
     alt: "GC",
     src: GC,
-    type: "Bed Cover Single",
-  },
-  {
-    name: "Kerokeroppi",
-    alt: "Kerokeroppi",
-    src: Kerokeroppi,
     type: "Bed Cover Single",
   },
   {
