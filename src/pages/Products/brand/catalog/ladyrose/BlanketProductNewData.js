@@ -4,7 +4,6 @@ import Elina from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Elin
 import Keroppi_Food from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Keroppi_Food.jpg";
 import Kitty_biscuits from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/kitty_biscuits.jpg";
 import Kitty_Sweet from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Kitty_Sweet.jpg";
-import Pratista from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Pratista.jpg";
 import Superman from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Superman.jpg";
 
 const BlanketProductNewData = [
@@ -42,12 +41,6 @@ const BlanketProductNewData = [
     src: Kitty_Sweet,
     alt: "Kitty Sweet",
     name: "Kitty Sweet",
-    type: "Blanket",
-  },
-  {
-    src: Pratista,
-    alt: "Pratista",
-    name: "Pratista",
     type: "Blanket",
   },
   {
