@@ -8,7 +8,7 @@ import dc_girls from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/dc_
 import dc_super_friends from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/dc_super_friends.jpg";
 import delia from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/delia.jpg";
 import Doraemon_Comic from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/doraemon_comic.jpg";
-import Doraemon_hopter from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Doraemon_hopter.jpg";
+import Doraemon_hopter from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/doraemon_hopter.jpg";
 import FC_Juventus from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/FC_Juventus.jpg";
 import Felix from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Felix.jpg";
 import Ferren from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Ferren.jpg";
