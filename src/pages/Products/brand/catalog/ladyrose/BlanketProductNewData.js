@@ -2,7 +2,7 @@ import Batman from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Bat
 import Danila from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Danila.jpg";
 import Elina from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Elina.jpg";
 import Keroppi_Food from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Keroppi_Food.jpg";
-import Kitty_biscuits from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Kitty_biscuits.jpg";
+import Kitty_biscuits from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/kitty_biscuits.jpg";
 import Kitty_Sweet from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Kitty_Sweet.jpg";
 import Pratista from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Pratista.jpg";
 import Superman from "../../../../../assets/catalogue/itg_lady_rose/blanketnew/Superman.jpg";
