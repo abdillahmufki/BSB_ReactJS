@@ -13,7 +13,6 @@ import Felix from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Felix.
 import furr from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/furr.jpg";
 import GC from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/GC.jpg";
 import Kitty_Cake from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kitty_Cake.jpg";
-import Kitty_Cappucino from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kitty_Cappucino.jpg";
 import Leon from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Leon.jpg";
 import Lolita from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Lolita.jpg";
 import Louis from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Louis.jpg";
@@ -125,12 +124,6 @@ export const BedCoverSingleData = [
     name: " Kitty Cake",
     alt: " Kitty Cake",
     src: Kitty_Cake,
-    type: "Bed Cover Single",
-  },
-  {
-    name: " Kitty Cappucino",
-    alt: " Kitty Cappucino",
-    src: Kitty_Cappucino,
     type: "Bed Cover Single",
   },
   {
