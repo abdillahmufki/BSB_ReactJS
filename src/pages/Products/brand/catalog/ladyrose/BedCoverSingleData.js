@@ -18,7 +18,7 @@ import Ferren from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Ferre
 import Flamingo from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Flamingo1.jpg";
 import furr from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/furr.jpg";
 import GC from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/GC.jpg";
-import Kerokeroppi from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kerokeroppi.jpg";
+import Kerokeroppi from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kerokeroppi1.jpg";
 import Keroppi_chef from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Keroppi_chef.jpg";
 import Kitty_Cake from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kitty_Cake.jpg";
 import Kitty_Cappucino from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kitty_Cappucino.jpg";
