@@ -28,7 +28,6 @@ import little_twin_star from "../../../../../assets/catalogue/itg_lady_rose/bcsi
 import LOL from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/LOL.jpg";
 import lolita from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/lolita.jpg";
 import london from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/london.jpg";
-import Louis from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Louis.jpg";
 import Maurin from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Maurin.jpg";
 import Monstera from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Monstera.jpg";
 import MU_Red from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/MU_Red.jpg";
@@ -227,12 +226,6 @@ export const BedCoverSingleData = [
     name: "london",
     alt: "london",
     src: london,
-    type: "Bed Cover Single",
-  },
-  {
-    name: "Louis",
-    alt: "Louis",
-    src: Louis,
     type: "Bed Cover Single",
   },
   {
