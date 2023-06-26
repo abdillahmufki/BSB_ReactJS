@@ -3,7 +3,7 @@ import Bear from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby
 import Blue_Bear from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Blue_Bear1.jpg";
 import Bona from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Bona.jpg";
 import Cow from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Coww.jpg";
-import Cute_Bear from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Cute_Bear.jpg";
+import Cute_Bear from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Cute_Bear1.jpg";
 import Doni from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Doni.jpg";
 import Doraemon from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Doraemon.jpg";
 import Elephant from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Elephant.jpg";
