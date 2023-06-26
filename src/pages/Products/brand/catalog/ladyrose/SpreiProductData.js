@@ -19,7 +19,7 @@ import Ferren from "../../../../../assets/catalogue/itg_lady_rose/sp/Ferren.jpg"
 import Flamingo from "../../../../../assets/catalogue/itg_lady_rose/sp/Flamingo.jpg";
 import GC from "../../../../../assets/catalogue/itg_lady_rose/sp/GC.jpg";
 import Gisel from "../../../../../assets/catalogue/itg_lady_rose/sp/Gisel.jpg";
-import Isla from "../../../../../assets/catalogue/itg_lady_rose/sp/isla-.jpg";
+import Isla from "../../../../../assets/catalogue/itg_lady_rose/sp/Isla.jpg";
 import Janet from "../../../../../assets/catalogue/itg_lady_rose/sp/janet.jpg";
 import Jayden from "../../../../../assets/catalogue/itg_lady_rose/sp/jayden.jpg";
 import Jordan from "../../../../../assets/catalogue/itg_lady_rose/sp/jordan.jpg";
