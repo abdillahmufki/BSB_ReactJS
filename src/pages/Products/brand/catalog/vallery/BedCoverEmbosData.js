@@ -4,7 +4,7 @@ import Burgundy from "../../../../../assets/catalogue/itg_vallery_quincy/bcembos
 import Capri from "../../../../../assets/catalogue/itg_vallery_quincy/bcembos/Capri.jpg";
 import Chiffon from "../../../../../assets/catalogue/itg_vallery_quincy/bcembos/Chiffon.jpg";
 import Coffee from "../../../../../assets/catalogue/itg_vallery_quincy/bcembos/Coffee.jpg";
-import Cotton_camdy from "../../../../../assets/catalogue/itg_vallery_quincy/bcembos/Cotton_camdy.jpg";
+import Cotton_camdy from "../../../../../assets/catalogue/itg_vallery_quincy/bcembos/cotton_camdy.jpg";
 import Cranberry from "../../../../../assets/catalogue/itg_vallery_quincy/bcembos/Cranberry.jpg";
 import Dark_green from "../../../../../assets/catalogue/itg_vallery_quincy/bcembos/Dark_green.jpg";
 import Dark_pink from "../../../../../assets/catalogue/itg_vallery_quincy/bcembos/Dark_pink.jpg";
