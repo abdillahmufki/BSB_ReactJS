@@ -1,7 +1,7 @@
 import React from "react";
 
-const RainbowProduct = () => {
+const RainbowProducts = () => {
   return <div>RainbowProduct</div>;
 };
 
-export default RainbowProduct;
+export default RainbowProducts;

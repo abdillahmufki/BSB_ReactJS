@@ -7,7 +7,8 @@ import AlohaProduct from "./pages/Products/brand/AlohaProduct";
 import IllusionsProduct from "./pages/Products/brand/IllusionsProducts";
 import InternalProduct from "./pages/Products/brand/InternalProducts";
 import LadyRoseProduct from "./pages/Products/brand/LadyroseProducts";
-// import ValleryProduct from "./pages/Products/brand/ValleryquicyProducts";
+import ValleryquicyProducts from "./pages/Products/brand/ValleryquicyProducts";
+import RainbowProducts from "./pages/Products/brand/RainbowProducts";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
             <Route path="/illusion" element={<IllusionsProduct />} />
             <Route path="/internal" element={<InternalProduct />} />
             <Route path="/ladyrose" element={<LadyRoseProduct />} />
+            <Route path="/valeryquincy" element={<ValleryquicyProducts />} />
+            <Route path="/rainbow" element={<RainbowProducts />} />
           </Routes>
         </main>
         <footer>

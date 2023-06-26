@@ -32,9 +32,9 @@ const AllBrandProducts = () => {
       path: "/ladyrose",
     },
     {
-      name: "Vallery",
+      name: "Vallery Quincy",
       logo: vallery,
-      path: "/vallery",
+      path: "/valeryquincy",
     },
     {
       name: "Rainbow",
@@ -47,7 +47,7 @@ const AllBrandProducts = () => {
     <>
       <Container className="my-10 py-14">
         <div className="pb-10">
-          <h2 className="text-center text-2xl font-semibold mb-5">
+          <h2 className="mb-5 text-center text-2xl font-semibold">
             Kualitas Terbaik yang Anda Percaya, Kenyamanan yang Anda Nikmati.
           </h2>
         </div>
@@ -55,14 +55,14 @@ const AllBrandProducts = () => {
           {brandLogos.map((brand, index) => (
             <Col key={index} lg={2} md={4} sm={6}>
               <Link to={brand.path}>
-                <div className="bg-[#fff] lg:w-40 rounded-lg shadow-xl p-5 hover:scale-105 transition-transform duration-300 cursor-pointer">
+                <div className="cursor-pointer rounded-lg bg-[#fff] p-5 shadow-xl transition-transform duration-300 hover:scale-105 lg:w-44">
                   <img
                     src={brand.logo}
                     alt="img"
                     width={100}
-                    className="ml-3"
+                    className="ml-5"
                   />
-                  <p className="text-center uppercase font-semibold">
+                  <p className="text-center font-semibold uppercase">
                     {brand.name}
                   </p>
                 </div>
