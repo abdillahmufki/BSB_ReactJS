@@ -21,7 +21,7 @@ import GC from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/GC.jpg";
 import Kerokeroppi from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kerokeroppi1.jpg";
 import Keroppi_chef from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Keroppi_chef.jpg";
 import Kitty_Cake from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kitty_Cake.jpg";
-import Kitty_Cappucino from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Kitty_Cappucino.jpg";
+import Kitty_Cappucino from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/helocity.jpg";
 import Leon from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Leon.jpg";
 import little_pony from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/little_pony.jpg";
 import little_twin_star from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/little_twin_star.jpg";
