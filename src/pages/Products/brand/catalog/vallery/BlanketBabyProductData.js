@@ -1,5 +1,5 @@
 import Angry_Bird from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/AngryBird.jpg";
-import Bear from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Bear.jpg";
+import Bear from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Bear1.jpg";
 import Blue_Bear from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Blue_Bear.jpg";
 import Bona from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Bona.jpg";
 import Cow from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Cow.jpg";
