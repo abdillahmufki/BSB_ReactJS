@@ -28,7 +28,7 @@ import little_twin_star from "../../../../../assets/catalogue/itg_lady_rose/bcsi
 import LOL from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/LOL.jpg";
 import lolita from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/lolita.jpg";
 import london from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/london.jpg";
-import Maurin from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Maurin.jpg";
+import Maurin from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Maurin1.jpg";
 import Monstera from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Monstera.jpg";
 import MU_Red from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/MU_Red.jpg";
 import parisian from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/parisian.jpg";
