@@ -12,7 +12,7 @@ import doraemon_comic from "../../../../../assets/catalogue/itg_lady_rose/bcsing
 import doraemon_hopter from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/doraemon_hopter.jpg";
 import doraemon_sea from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/doraemon_sea.jpg";
 import FC_Barcelona from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/FC_Barcelona.jpg";
-import FC_Juventus from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/FC_Juventus.jpg";
+import FC_Juventus from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Juventus.jpg";
 import Felix from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Felix.jpg";
 import Ferren from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Ferren.jpg";
 import Flamingo from "../../../../../assets/catalogue/itg_lady_rose/bcsingle/Flamingo.jpg";
