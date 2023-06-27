@@ -14,8 +14,8 @@ import Ferren from "../../../../../assets/catalogue/itg_lady_rose/sp2in1/Ferren.
 import Flamingo from "../../../../../assets/catalogue/itg_lady_rose/sp2in1/flamingo.jpg";
 import Furr from "../../../../../assets/catalogue/itg_lady_rose/sp2in1/Furr.jpg";
 import Isla from "../../../../../assets/catalogue/itg_lady_rose/sp2in1/Isla1.jpg";
-import Janet from "../../../../../assets/catalogue/itg_lady_rose/sp2in1/janet.jpg";
-import Jayden from "../../../../../assets/catalogue/itg_lady_rose/sp2in1/jayden.jpg";
+import Janet from "../../../../../assets/catalogue/itg_lady_rose/sp2in1/Janet.jpg";
+import Jayden from "../../../../../assets/catalogue/itg_lady_rose/sp2in1/Jayden.jpg";
 import Kerokeroppi from "../../../../../assets/catalogue/itg_lady_rose/sp2in1/Kerokeroppi.jpg";
 import Little_Pony from "../../../../../assets/catalogue/itg_lady_rose/sp2in1/Little_Pony.jpg";
 import Little_twin_star from "../../../../../assets/catalogue/itg_lady_rose/sp2in1/Little_twin_star.jpg";
