@@ -5,7 +5,7 @@ import Bona from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby
 import Cow from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Coww.jpg";
 import Cute_Bear from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Cute_Bear1.jpg";
 import Doni from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Doni1.jpg";
-import Doraemon from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Doraemon.jpg";
+import Doraemon from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Doraemon1.jpg";
 import Elephant from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Elephant.jpg";
 import Frog from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Frog.jpg";
 import Giraffe from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Giraffe.jpg";
