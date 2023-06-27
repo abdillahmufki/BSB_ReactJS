@@ -19,7 +19,7 @@ import Pink_Bear from "../../../../../assets/catalogue/itg_vallery_quincy/blanke
 import Pink_Owl from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/pinkOwl.jpg";
 import Twetty from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/tweety1.jpg";
 import Uniqorn from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/unicorn1.jpg";
-import Wisel from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Wisel.jpg";
+import Wisel from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/wisel1.jpg";
 
 export const BlanketBabyProductData = [
   {
