@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navbar, Footer } from "./components";
+import { Navbar, Footer, WhatsAppShareButton } from "./components";
 import { Home, About, Contacts, NotFound, Products } from "./pages";
 import AlohaProduct from "./pages/Products/brand/AlohaProduct";
 import IllusionsProduct from "./pages/Products/brand/IllusionsProducts";
@@ -33,6 +33,7 @@ function App() {
             <Route path="/valeryquincy" element={<ValleryquicyProducts />} />
             <Route path="/rainbow" element={<RainbowProducts />} />
           </Routes>
+          <WhatsAppShareButton />
         </main>
         <footer>
           <Footer />

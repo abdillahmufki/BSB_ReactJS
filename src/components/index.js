@@ -3,5 +3,6 @@ import Button from "./Button";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Banner from "./Banner";
+import WhatsAppShareButton from "./WhatsAppShareButton";
 
-export { Navbar, Button, Footer, Hero, Banner };
+export { Navbar, Button, Footer, Hero, Banner, WhatsAppShareButton };
