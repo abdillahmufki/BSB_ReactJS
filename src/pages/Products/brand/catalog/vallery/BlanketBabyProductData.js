@@ -11,8 +11,8 @@ import Frog from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby
 import Giraffe from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Giraffe1.jpg";
 import Green_Owl from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/green.jpg";
 import Hamster from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/hamster1.jpg";
-import HK_Pink from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/HK_Pink.jpg";
-import HK_Red from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/HK_Red.jpg";
+import HK_Pink from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/hk_pink.jpg";
+import HK_Red from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/hk_red.jpg";
 import Minions from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Minions.jpg";
 import Panda from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Panda.jpg";
 import Pink_Bear from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Pink_Bear.jpg";
