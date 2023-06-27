@@ -4,7 +4,7 @@ import Astrobear from "../../../../../assets/catalogue/itg_lady_rose/spsingle/As
 import Batman from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Batman.jpg";
 import Chelsea_Blue_ from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Chelsea_Blue_.jpg";
 import Dawson from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Dawson.jpg";
-import Dc_Girls from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Dc_Girls.jpg";
+import Dc_Girls from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Girls.jpg";
 import dc_super_friend from "../../../../../assets/catalogue/itg_lady_rose/spsingle/dc_super_friend.jpg";
 import Delia from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Delia.jpg";
 import Doraemon from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Doraemon.jpg";
