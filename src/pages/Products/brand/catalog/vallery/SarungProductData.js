@@ -14,10 +14,10 @@ import Elves from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbant
 import Espresso from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/Espresso.jpg";
 import Hezka_A from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/Hezka_A.jpg";
 import Hezka_B from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/Hezka_B.jpg";
-import jade_A from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/jade_A.jpg";
-import jade_B from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/jade_B.jpg";
-import joan_A from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/joan_A.jpg";
-import joan_B from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/joan_B.jpg";
+import jade_A from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/Jade_A.jpg";
+import jade_B from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/Jade_B.jpg";
+import joan_A from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/Joan_A.jpg";
+import joan_B from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/Joan_B.jpg";
 import Kate_A from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/Kate_A.jpg";
 import Kate_B from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/Kate_B.jpg";
 import Lisa from "../../../../../assets/catalogue/itg_vallery_quincy/sarungbantal/Lisa.jpg";
