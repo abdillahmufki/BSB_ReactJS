@@ -11,37 +11,37 @@ import keset from "../../assets/catalogue/itg_vallery_quincy/keset/Amber.jpg";
 const HomeProduct = () => {
   const products = [
     {
-      link: "#",
+      link: "/aloha",
       imageUrl: bcembos,
       title: "Bed Cover",
       text: "Aloha",
     },
     {
-      link: "#",
+      link: "/illusion",
       imageUrl: sarungKasur,
       title: "Sarung Kasur",
       text: "Illusions",
     },
     {
-      link: "#",
+      link: "/internal",
       imageUrl: blanket,
       title: "Selimut",
       text: "Internal",
     },
     {
-      link: "#",
+      link: "/ladyrose",
       imageUrl: karpet,
       title: "Karpet",
       text: "Lady Rose",
     },
     {
-      link: "#",
+      link: "/rainbow",
       imageUrl: sprei,
       title: "Sprei",
       text: "Rainbow",
     },
     {
-      link: "#",
+      link: "/valeryquincy",
       imageUrl: keset,
       title: "Keset",
       text: "Vallery Quincy",

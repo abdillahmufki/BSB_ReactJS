@@ -16,14 +16,14 @@ import SpreiSinggleEmboss from "./catalog/aloha/SpreiSinggleEmboss";
 const Banner = ({ bannerImage, logoImage }) => {
   return (
     <div
-      className="md:min-h-screen w-screen bg-cover bg-center bg-no-repeat relative"
+      className="relative w-screen bg-cover bg-center bg-no-repeat md:min-h-screen"
       style={{ backgroundImage: `url(${bannerImage})` }}
     >
-      <div className="pt-28 flex justify-center">
+      <div className="flex justify-center pt-36">
         <img
           src={logoImage}
           alt="logo brand"
-          className="w-auto max-[600px]:w-16 absolute bottom-0"
+          className="absolute bottom-0 w-auto max-[600px]:w-16"
         />
       </div>
     </div>
@@ -72,25 +72,25 @@ const AlohaProduct = () => {
   ];
 
   return (
-    <Container fluid className="mt-[90px] min-h-screen">
+    <Container fluid className="mt-20 min-h-screen">
       <Row>
         {" "}
         <Banner bannerImage={banner} logoImage={imageLogo} />
       </Row>
       <Col lg={12} className="my-28">
-        <div className="text-base flex justify-center font-bold text-gray-500 cursor-pointer text-center">
+        <div className="flex cursor-pointer justify-center text-center text-base font-bold text-gray-500">
           <Row className="gap-y-5">
             {products.map((product, index) => (
               <Col key={index} lg={4} md={4} sm={12}>
                 <div
-                  className="bg-[#f5f5f5] shadow-md rounded-xl p-10 w-48 hover:scale-110 ease-in duration-200"
+                  className="w-48 rounded-xl bg-[#f5f5f5] p-10 shadow-md duration-200 ease-in hover:scale-110"
                   onClick={() => handleProductClick(product.name)}
                 >
                   <img
                     src={product.image}
                     alt="icon"
                     width={64}
-                    className="ml-5 mb-5"
+                    className="mb-5 ml-5"
                   />
                   <h2>{product.name}</h2>
                 </div>

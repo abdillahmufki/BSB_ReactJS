@@ -13,7 +13,7 @@ const HomeContact = () => {
           <Col>
             <div className="lg:mt-24">
               <div className="header">
-                <h2 className="text-3xl font-semibold ml-5 mb-5">
+                <h2 className="mb-5 ml-5 text-3xl font-semibold">
                   Kontak Informasi
                 </h2>
               </div>
@@ -49,7 +49,7 @@ const HomeContact = () => {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6186254281897!2d107.59000511414499!3d-6.936101669822349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e8a3865e6439%3A0xbfed468fd51fcf96!2sJl.%20Sukamulya%20Dalam%20No.9%2C%20Suka%20Asih%2C%20Kec.%20Bojongloa%20Kaler%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040231!5e0!3m2!1sid!2sid!4v1666165562606!5m2!1sid!2sid"
                 width="600"
                 height="420"
-                className="w-full"
+                className="w-full rounded-md"
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
