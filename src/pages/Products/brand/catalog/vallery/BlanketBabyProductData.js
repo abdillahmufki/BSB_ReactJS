@@ -13,7 +13,7 @@ import Green_Owl from "../../../../../assets/catalogue/itg_vallery_quincy/blanke
 import Hamster from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/hamster1.jpg";
 import HK_Pink from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/pink.jpg";
 import HK_Red from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/red.jpg";
-import Minions from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Minions.jpg";
+import Minions from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/minion.jpg";
 import Panda from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Panda.jpg";
 import Pink_Bear from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Pink_Bear.jpg";
 import Pink_Owl from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Pink_Owl.jpg";
