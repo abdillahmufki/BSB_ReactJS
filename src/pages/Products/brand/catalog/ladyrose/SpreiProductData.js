@@ -54,7 +54,7 @@ import Tropica from "../../../../../assets/catalogue/itg_lady_rose/sp/Tropica.jp
 import Vania from "../../../../../assets/catalogue/itg_lady_rose/sp/Vania.jpg";
 import Veranda from "../../../../../assets/catalogue/itg_lady_rose/sp/Veranda.jpg";
 import Walter from "../../../../../assets/catalogue/itg_lady_rose/sp/Walter.jpg";
-import william from "../../../../../assets/catalogue/itg_lady_rose/sp/william.jpg";
+import william from "../../../../../assets/catalogue/itg_lady_rose/sp/William1.jpg";
 import Yellow_Rose from "../../../../../assets/catalogue/itg_lady_rose/sp/Yellow_Rose.jpg";
 
 const SpreiProductData = [
