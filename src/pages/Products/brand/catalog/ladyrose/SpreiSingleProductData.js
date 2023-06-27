@@ -42,7 +42,7 @@ import royal_princess from "../../../../../assets/catalogue/itg_lady_rose/spsing
 import Runabouts from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Runabouts.jpg";
 import Scarlet from "../../../../../assets/catalogue/itg_lady_rose/spsingle/scarlet.jpg";
 import Shinta from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Shinta.jpg";
-import Star from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Star.jpg";
+import Star from "../../../../../assets/catalogue/itg_lady_rose/spsingle/star.jpg";
 import superman from "../../../../../assets/catalogue/itg_lady_rose/spsingle/superman.jpg";
 import sweety_pony from "../../../../../assets/catalogue/itg_lady_rose/spsingle/sweety_pony.jpg";
 import Vania from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Vania.jpg";
