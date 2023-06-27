@@ -9,7 +9,7 @@ import Doraemon from "../../../../../assets/catalogue/itg_vallery_quincy/blanket
 import Elephant from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Elephant1.jpg";
 import Frog from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/frog1.jpg";
 import Giraffe from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Giraffe1.jpg";
-import Green_Owl from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Green_Owl.jpg";
+import Green_Owl from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/green.jpg";
 import Hamster from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/Hamster.jpg";
 import HK_Pink from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/HK_Pink.jpg";
 import HK_Red from "../../../../../assets/catalogue/itg_vallery_quincy/blanketbaby/HK_Red.jpg";
