@@ -103,7 +103,7 @@ const BedCoverMotifData = [
   {
     src: hilary,
     alt: "hilary",
-    name: "hilary",
+    name: "Hilary",
     type: "Bed Cover Motif",
   },
   {

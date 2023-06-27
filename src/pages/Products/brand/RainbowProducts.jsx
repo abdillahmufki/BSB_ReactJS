@@ -47,7 +47,7 @@ const RainbowProducts = () => {
   const products = [{ name: "Sprei", image: sprei }];
 
   return (
-    <div className="mt-90 min-h-screen overflow-hidden">
+    <div className="min-h-screen overflow-hidden">
       <Banner bannerImage={banner} logoImage={imageLogo} />
       <div className="my-24 flex justify-center gap-x-5 text-center font-bold">
         <div className="grid grid-cols-1 items-center justify-center gap-8 px-5 sm:grid-cols-3 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1">
