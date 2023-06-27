@@ -40,7 +40,7 @@ import rabbit_star from "../../../../../assets/catalogue/itg_lady_rose/spsingle/
 import Regan from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Regan.jpg";
 import royal_princess from "../../../../../assets/catalogue/itg_lady_rose/spsingle/royal_princess.jpg";
 import Runabouts from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Runabouts.jpg";
-import Scarlet from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Scarlet.jpg";
+import Scarlet from "../../../../../assets/catalogue/itg_lady_rose/spsingle/scarlet.jpg";
 import Shinta from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Shinta.jpg";
 import Star from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Star.jpg";
 import superman from "../../../../../assets/catalogue/itg_lady_rose/spsingle/superman.jpg";
