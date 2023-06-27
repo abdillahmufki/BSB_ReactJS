@@ -45,7 +45,7 @@ import Shinta from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Shint
 import Star from "../../../../../assets/catalogue/itg_lady_rose/spsingle/star.jpg";
 import superman from "../../../../../assets/catalogue/itg_lady_rose/spsingle/superman.jpg";
 import sweety_pony from "../../../../../assets/catalogue/itg_lady_rose/spsingle/sweety_pony.jpg";
-import Vania from "../../../../../assets/catalogue/itg_lady_rose/spsingle/Vania.jpg";
+import Vania from "../../../../../assets/catalogue/itg_lady_rose/spsingle/vania.jpg";
 import william from "../../../../../assets/catalogue/itg_lady_rose/spsingle/william.jpg";
 
 const SpreiSingleProductData = [
