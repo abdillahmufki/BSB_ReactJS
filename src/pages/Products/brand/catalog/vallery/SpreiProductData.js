@@ -14,7 +14,7 @@ import Delphi from "../../../../../assets/catalogue/itg_vallery_quincy/sprei/Del
 import Diamond from "../../../../../assets/catalogue/itg_vallery_quincy/sprei/Diamond.jpg";
 import Elisa from "../../../../../assets/catalogue/itg_vallery_quincy/sprei/Elisa.jpg";
 import Elves from "../../../../../assets/catalogue/itg_vallery_quincy/sprei/Elves.jpg";
-import Elves_lama from "../../../../../assets/catalogue/itg_vallery_quincy/sprei/Elves_lama.jpg";
+import Elves_lama from "../../../../../assets/catalogue/itg_vallery_quincy/sprei/Elves_Lama.jpg";
 import Espresso from "../../../../../assets/catalogue/itg_vallery_quincy/sprei/Espresso.jpg";
 import Evelyn from "../../../../../assets/catalogue/itg_vallery_quincy/sprei/Evelyn.jpg";
 import Gemma from "../../../../../assets/catalogue/itg_vallery_quincy/sprei/Gemma.jpg";
