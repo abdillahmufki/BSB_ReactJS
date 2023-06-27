@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navbar, Footer } from "./components";
+import { Navbar, Footer, WhatsAppShareButton } from "./components";
 import { Home, About, Contacts, NotFound, Products } from "./pages";
 import AlohaProduct from "./pages/Products/brand/AlohaProduct";
 import IllusionsProduct from "./pages/Products/brand/IllusionsProducts";
 import InternalProduct from "./pages/Products/brand/InternalProducts";
 import LadyRoseProduct from "./pages/Products/brand/LadyroseProducts";
-// import ValleryProduct from "./pages/Products/brand/ValleryquicyProducts";
+import ValleryquicyProducts from "./pages/Products/brand/ValleryquicyProducts";
+import RainbowProducts from "./pages/Products/brand/RainbowProducts";
 
 function App() {
   return (
@@ -29,7 +30,10 @@ function App() {
             <Route path="/illusion" element={<IllusionsProduct />} />
             <Route path="/internal" element={<InternalProduct />} />
             <Route path="/ladyrose" element={<LadyRoseProduct />} />
+            <Route path="/valeryquincy" element={<ValleryquicyProducts />} />
+            <Route path="/rainbow" element={<RainbowProducts />} />
           </Routes>
+          <WhatsAppShareButton />
         </main>
         <footer>
           <Footer />
