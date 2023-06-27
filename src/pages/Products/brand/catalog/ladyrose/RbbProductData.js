@@ -6,7 +6,7 @@ import Diana from "../../../../../assets/catalogue/itg_lady_rose/rbb/Diana.jpg";
 import Gania from "../../../../../assets/catalogue/itg_lady_rose/rbb/Gania.jpg";
 import Hilda from "../../../../../assets/catalogue/itg_lady_rose/rbb/Hilda.jpg";
 import Iris from "../../../../../assets/catalogue/itg_lady_rose/rbb/Iris.jpg";
-import Jordan from "../../../../../assets/catalogue/itg_lady_rose/rbb/jordan.jpg";
+import Jordan from "../../../../../assets/catalogue/itg_lady_rose/rbb/Jordan.jpg";
 import Lisbon from "../../../../../assets/catalogue/itg_lady_rose/rbb/Lisbon.jpg";
 import Maple from "../../../../../assets/catalogue/itg_lady_rose/rbb/Maple.jpg";
 import Mili from "../../../../../assets/catalogue/itg_lady_rose/rbb/Mili.jpg";
