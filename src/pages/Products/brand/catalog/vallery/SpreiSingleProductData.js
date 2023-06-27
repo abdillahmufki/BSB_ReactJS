@@ -14,7 +14,7 @@ import Delphi from "../../../../../assets/catalogue/itg_vallery_quincy/spreising
 import Diamond from "../../../../../assets/catalogue/itg_vallery_quincy/spreisingle/Diamond.jpg";
 import Elisa from "../../../../../assets/catalogue/itg_vallery_quincy/spreisingle/Elisa.jpg";
 import Elves from "../../../../../assets/catalogue/itg_vallery_quincy/spreisingle/Elves.jpg";
-import Elves_lama from "../../../../../assets/catalogue/itg_vallery_quincy/spreisingle/Elves_Lama.jpg";
+import Elves_lama from "../../../../../assets/catalogue/itg_vallery_quincy/spreisingle/Elves1.jpg";
 import Espresso from "../../../../../assets/catalogue/itg_vallery_quincy/spreisingle/Espresso.jpg";
 import Evelyn from "../../../../../assets/catalogue/itg_vallery_quincy/spreisingle/Evelyn.jpg";
 import Gemma from "../../../../../assets/catalogue/itg_vallery_quincy/spreisingle/Gemma.jpg";
