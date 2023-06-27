@@ -41,7 +41,7 @@ import Ocha from "../../../../../assets/catalogue/itg_lady_rose/sp/Ocha.jpg";
 import Okta from "../../../../../assets/catalogue/itg_lady_rose/sp/Okta.jpg";
 import Parisian from "../../../../../assets/catalogue/itg_lady_rose/sp/Parisian.jpg";
 import Peter from "../../../../../assets/catalogue/itg_lady_rose/sp/Peter.jpg";
-import Pikka from "../../../../../assets/catalogue/itg_lady_rose/sp/Pikka.jpg";
+import Pikka from "../../../../../assets/catalogue/itg_lady_rose/sp/Pikka1.jpg";
 import Polka_Grey from "../../../../../assets/catalogue/itg_lady_rose/sp/Polka_Grey_.jpg";
 import Regan from "../../../../../assets/catalogue/itg_lady_rose/sp/Regan.jpg";
 import Sandra from "../../../../../assets/catalogue/itg_lady_rose/sp/Sandra.jpg";
