@@ -40,17 +40,17 @@ const data = {
 
 const ChooseMe = () => {
   return (
-    <div className="flex justify-center lg:px-10 my-10 lg:my-40">
+    <div className="my-10 flex justify-center lg:my-40 lg:px-10">
       <Container fluid>
-        <div className="block p-6 bg-gray-300 border-gray-200 rounded-xl shadow-md lg:p-20">
+        <div className="block rounded-xl border-gray-200 bg-gray-300 p-6 shadow-md lg:p-20">
           <Row className="gap-y-10">
             <Col lg={6} md={12} sm={12}>
               <div className="my-10">
-                <h3 className="text-4xl max-[480px]:text-2xl font-semibold">
+                <h3 className="text-4xl font-semibold max-[480px]:text-2xl">
                   {data.heading}
                 </h3>
               </div>
-              <div className="lg:ml-7 max-[728px]:ml-8 mt-3">
+              <div className="mt-3 max-[728px]:ml-8 lg:ml-7">
                 <div className="mockup-phone max-[600px]:hidden">
                   <div className="camera"></div>
                   <div className="display">
@@ -67,9 +67,9 @@ const ChooseMe = () => {
                   {features.map((feature, index) => (
                     <Col lg={6} md={6} sm={12} key={index}>
                       <div
-                        className={`${feature.color} p-5 rounded-2xl text-black hover:text-white`}
+                        className={`${feature.color} rounded-2xl p-5 text-black duration-200 ease-in hover:text-white`}
                       >
-                        <div className="bg-[#fff] p-4 rounded-full w-14 shadow-sm my-3">
+                        <div className="my-3 w-14 rounded-full bg-[#fff] p-4 shadow-sm">
                           <img src={feature.icon} width={50} alt="icon" />
                         </div>
                         <h4 className="text-lg font-semibold">

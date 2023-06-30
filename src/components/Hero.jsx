@@ -1,20 +1,32 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "./Button";
 import { Container, Row, Col } from "react-grid-system";
 import Banner from "./Banner";
 import { Link } from "react-router-dom";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Hero = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-out",
+      delay: 200,
+    });
+  }, []);
   return (
     <>
-      <Container fluid className="min-h-fit bg-[#fff] lg:mt-[140px] my-20">
+      <Container
+        fluid
+        className="my-20 min-h-fit bg-[#fff] lg:mt-[140px]"
+        data-aos="fade-down"
+      >
         <Row className="gap-y-10 lg:px-10">
           <Col lg={5} md={4} sm={12}>
             <div className="text-center lg:px-3">
-              <h3 className="text-2xl max-[600px]:text-lg font-medium my-5">
+              <h3 className="my-5 text-2xl font-medium max-[600px]:text-lg">
                 Selamat datang di PT. Buana Selaras Berjaya!
               </h3>
-              <h2 className="text-5xl max-[600px]:text-xl font-bold my-5">
+              <h2 className="my-5 text-5xl font-bold max-[600px]:text-xl">
                 Menjadi Pilihan Utama untuk Produk Tekstil Berkualitas
               </h2>
               <p className="my-5">
