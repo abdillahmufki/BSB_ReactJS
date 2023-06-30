@@ -3,9 +3,7 @@ import React, { useState } from "react";
 
 import banner from "../../../assets/banner/19.jpg";
 import imageLogo from "../../../assets/brand-logo/rainbow.png";
-
 import sprei from "../../../assets/category/bed1.png";
-
 import SpreiProduct from "./catalog/rainbow/SpreiProduct";
 
 const Banner = ({ bannerImage, logoImage }) => {

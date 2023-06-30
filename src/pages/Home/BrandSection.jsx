@@ -58,7 +58,7 @@ const BrandSection = () => {
         <Row className="gap-y-3">
           {brandLogos.map((brandLogo, index) => (
             <Col lg={2} md={2} sm={4} key={index}>
-              <div className="flex justify-center rounded-md bg-white shadow-md">
+              <div className="flex scale-100 justify-center rounded-md bg-white shadow-md duration-100 ease-in hover:scale-110">
                 <a href={brandLogo.link}>
                   <img
                     src={brandLogo.src}
