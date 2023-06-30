@@ -90,7 +90,7 @@ const AlohaProduct = () => {
                     src={product.image}
                     alt="icon"
                     width={64}
-                    className="mb-5 ml-5"
+                    className="mb-5 ml-6"
                   />
                   <h2>{product.name}</h2>
                 </div>
