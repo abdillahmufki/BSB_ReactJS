@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 // Import Swiper React components
 import { Container, Row, Col } from "react-grid-system";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,12 +11,22 @@ import "swiper/css/navigation";
 // import required modules
 import { Navigation } from "swiper";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const AboutBsb = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      easing: "ease-out",
+      delay: 200,
+    });
+  }, []);
   return (
     <>
       <Container
         fluid
-        className="bg-gray-300 min-h-full py-10 lg:py-32 px-10 text-black"
+        className="min-h-full bg-gray-300 px-10 py-10 text-black lg:py-32"
+        data-aos="fade-right"
       >
         <div>
           <Swiper
@@ -61,7 +71,7 @@ const AboutBsb = () => {
           </Swiper>
         </div>
       </Container>
-      <Container className="pt-16">
+      <Container className="pt-16" data-aos="fade-left">
         <Row>
           <Col lg={6} md={6} sm={12}>
             <div className="lg:mt-16 lg:px-5">
@@ -72,7 +82,7 @@ const AboutBsb = () => {
                 </h2>
               </div>
               <div className="my-10">
-                <p className="text-gray-600 text-lg">
+                <p className="text-lg text-gray-600">
                   &quot;PT. BSB berfokus pada upaya-upaya untuk memastikan
                   ketersediaan product berdasarkan prinsip availability,
                   accessibility, affordability, acceptability dan sustainability
@@ -86,7 +96,7 @@ const AboutBsb = () => {
               <img
                 src={img}
                 alt="image"
-                className="transition duration-300 ease-in-out hover:scale-110 hover:rounded-md rounded-md"
+                className="rounded-md transition duration-300 ease-in-out hover:scale-110 hover:rounded-md"
               />
             </div>
           </Col>
