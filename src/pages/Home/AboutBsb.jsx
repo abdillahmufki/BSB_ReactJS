@@ -71,7 +71,7 @@ const AboutBsb = () => {
           </Swiper>
         </div>
       </Container>
-      <Container className="pt-16">
+      <Container className="pt-16" data-aos="fade-left">
         <Row>
           <Col lg={6} md={6} sm={12}>
             <div className="lg:mt-16 lg:px-5">

@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-grid-system";
 import { quality, delivery, trusted, bestPrice } from "../../assets/icon";
 import imgMockUP from "../../assets/content/mocup.avif";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const features = [
   {
@@ -39,12 +42,19 @@ const data = {
 };
 
 const ChooseMe = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 3000,
+      easing: "ease-out",
+      delay: 300,
+    });
+  }, []);
   return (
     <div className="my-10 flex justify-center lg:my-40 lg:px-10">
       <Container fluid>
         <div className="block rounded-xl border-gray-200 bg-gray-300 p-6 shadow-md lg:p-20">
           <Row className="gap-y-10">
-            <Col lg={6} md={12} sm={12}>
+            <Col lg={6} md={12} sm={12} data-aos="fade-right">
               <div className="my-10">
                 <h3 className="text-4xl font-semibold max-[480px]:text-2xl">
                   {data.heading}
@@ -61,7 +71,7 @@ const ChooseMe = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={6} md={12} sm={12}>
+            <Col lg={6} md={12} sm={12} data-aos="fade-left">
               <div>
                 <Row className="gap-y-10">
                   {features.map((feature, index) => (
