@@ -44,9 +44,9 @@ const data = {
 const ChooseMe = () => {
   useEffect(() => {
     AOS.init({
-      duration: 3000,
+      duration: 2000,
       easing: "ease-out",
-      delay: 300,
+      delay: 200,
     });
   }, []);
   return (
