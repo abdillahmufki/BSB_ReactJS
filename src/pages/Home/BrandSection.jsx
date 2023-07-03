@@ -17,7 +17,7 @@ const BrandSection = () => {
     AOS.init({
       duration: 3000,
       easing: "ease-out",
-      delay: 300,
+      delay: 200,
     });
   }, []);
   const brandLogos = [
