@@ -17,7 +17,7 @@ const Hero = () => {
     <>
       <Container
         fluid
-        className="my-20 min-h-fit bg-[#fff] lg:mt-[140px]"
+        className="my-20 min-h-screen bg-[#fff] lg:mt-[140px]"
         data-aos="fade-down"
       >
         <Row className="gap-y-10 lg:px-10">

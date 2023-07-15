@@ -27,12 +27,16 @@ import {
 const Banner = ({ bannerImage, logoImage }) => {
   return (
     <div
-      className="min-h-screen w-screen bg-cover bg-center bg-no-repeat relative"
+      className="relative min-h-screen w-screen bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${bannerImage})` }}
     >
-      <div className="pt-36 flex justify-center">
-        <div className="bg-white p-5 rounded-md shadow-md absolute bottom-10">
-          <img src={logoImage} alt="logo brand" className="w-auto max-w-16" />
+      <div className="flex justify-start ps-10 pt-36">
+        <div className="bottom-10 rounded-md bg-white p-5 shadow-md">
+          <img
+            src={logoImage}
+            alt="logo brand"
+            className="max-w-16 w-[250px]"
+          />
         </div>
       </div>
     </div>
@@ -100,22 +104,22 @@ const InternalProducts = () => {
   return (
     <div className="mt-90 overflow-hidden">
       <Banner bannerImage={banner} logoImage={imageLogo} />
-      <div className="flex justify-center gap-x-5 my-24 px-10 text-center font-bold">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+      <div className="my-24 flex justify-center gap-x-5 px-10 text-center font-bold">
+        <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           <div className="col-span-1">
             {products
               .filter((product) => product.name === "Bed Cover")
               .map((product, index) => (
                 <div
                   key={index}
-                  className="bg-[#f5f5f5] shadow-md rounded-xl p-6 hover:scale-110 ease-in duration-200"
+                  className="rounded-xl bg-[#f5f5f5] p-6 shadow-md duration-200 ease-in hover:scale-110"
                   onClick={() => handleProductClick(product.name)}
                 >
                   <img
                     src={product.image}
                     alt="icon"
                     width={64}
-                    className="ml-5 mb-3"
+                    className="mb-3 ml-5"
                   />
                   <h2>{product.name}</h2>
                 </div>
@@ -127,14 +131,14 @@ const InternalProducts = () => {
               .map((product, index) => (
                 <div
                   key={index}
-                  className="bg-[#f5f5f5] shadow-md rounded-xl p-6 hover:scale-110 ease-in duration-200"
+                  className="rounded-xl bg-[#f5f5f5] p-6 shadow-md duration-200 ease-in hover:scale-110"
                   onClick={() => handleProductClick(product.name)}
                 >
                   <img
                     src={product.image}
                     alt="icon"
                     width={64}
-                    className="ml-5 mb-3"
+                    className="mb-3 ml-5"
                   />
                   <h2>{product.name}</h2>
                 </div>
@@ -146,14 +150,14 @@ const InternalProducts = () => {
               .map((product, index) => (
                 <div
                   key={index}
-                  className="bg-[#f5f5f5] shadow-md rounded-xl p-6 hover:scale-110 ease-in duration-200"
+                  className="rounded-xl bg-[#f5f5f5] p-6 shadow-md duration-200 ease-in hover:scale-110"
                   onClick={() => handleProductClick(product.name)}
                 >
                   <img
                     src={product.image}
                     alt="icon"
                     width={64}
-                    className="ml-5 mb-3"
+                    className="mb-3 ml-5"
                   />
                   <h2>{product.name}</h2>
                 </div>
@@ -165,14 +169,14 @@ const InternalProducts = () => {
               .map((product, index) => (
                 <div
                   key={index}
-                  className="bg-[#f5f5f5] shadow-md rounded-xl p-6 hover:scale-110 ease-in duration-200"
+                  className="rounded-xl bg-[#f5f5f5] p-6 shadow-md duration-200 ease-in hover:scale-110"
                   onClick={() => handleProductClick(product.name)}
                 >
                   <img
                     src={product.image}
                     alt="icon"
                     width={64}
-                    className="ml-5 mb-3"
+                    className="mb-3 ml-5"
                   />
                   <h2>{product.name}</h2>
                 </div>
@@ -184,14 +188,14 @@ const InternalProducts = () => {
               .map((product, index) => (
                 <div
                   key={index}
-                  className="bg-[#f5f5f5] shadow-md rounded-xl p-6 hover:scale-110 ease-in duration-200"
+                  className="rounded-xl bg-[#f5f5f5] p-6 shadow-md duration-200 ease-in hover:scale-110"
                   onClick={() => handleProductClick(product.name)}
                 >
                   <img
                     src={product.image}
                     alt="icon"
                     width={64}
-                    className="ml-5 mb-3"
+                    className="mb-3 ml-5"
                   />
                   <h2>{product.name}</h2>
                 </div>

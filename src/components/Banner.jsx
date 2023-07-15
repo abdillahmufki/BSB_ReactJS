@@ -38,13 +38,13 @@ const dataImage = [
 
 export default function Banner() {
   return (
-    <Container className="lg:px-20 max-[600px]:p-5">
+    <Container className="max-[600px]:p-5 lg:px-20">
       <Swiper
         spaceBetween={30}
         effect={"fade"}
         // navigation={true}
         autoplay={{
-          delay: 2000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -58,7 +58,7 @@ export default function Banner() {
             <img
               src={item.img}
               alt="banner"
-              className="rounded-tl-[50px] rounded-br-[50px]"
+              className="rounded-br-[50px] rounded-tl-[50px]"
             />
           </SwiperSlide>
         ))}

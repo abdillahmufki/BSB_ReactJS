@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 // Import Swiper React components
 import { Container, Row, Col } from "react-grid-system";
 import { Swiper, SwiperSlide } from "swiper/react";
-import img from "../../assets/images/about.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -73,7 +72,7 @@ const AboutBsb = () => {
       </Container>
       <Container className="pt-16" data-aos="fade-left">
         <Row>
-          <Col lg={6} md={6} sm={12}>
+          <Col lg={12} md={12} sm={12}>
             <div className="lg:mt-16 lg:px-5">
               <div>
                 <h2 className="text-4xl font-semibold">
@@ -89,15 +88,6 @@ const AboutBsb = () => {
                   &quot;
                 </p>
               </div>
-            </div>
-          </Col>
-          <Col lg={6} md={6} sm={12}>
-            <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img
-                src={img}
-                alt="image"
-                className="rounded-md transition duration-300 ease-in-out hover:scale-110 hover:rounded-md"
-              />
             </div>
           </Col>
         </Row>
