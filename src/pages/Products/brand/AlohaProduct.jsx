@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from "react";
-import { Container, Row, Col } from "react-grid-system";
 import banner from "../../../assets/banner/01.jpg";
 import imageLogo from "../../../assets/brand-logo/aloha.png";
 import bedCover from "../../../assets/category/sprei1.png";
@@ -16,14 +15,14 @@ import SpreiSinggleEmboss from "./catalog/aloha/SpreiSinggleEmboss";
 const Banner = ({ bannerImage, logoImage }) => {
   return (
     <div
-      className="relative w-screen bg-cover bg-center bg-no-repeat md:min-h-screen"
+      className="relative min-h-screen w-screen bg-cover bg-center bg-no-repeat md:min-h-screen"
       style={{ backgroundImage: `url(${bannerImage})` }}
     >
       <div className="flex justify-center pt-36">
         <img
           src={logoImage}
           alt="logo brand"
-          className="absolute bottom-0 w-auto max-[600px]:w-16"
+          className="max-w-16 absolute bottom-0 w-auto"
         />
       </div>
     </div>
@@ -72,37 +71,30 @@ const AlohaProduct = () => {
   ];
 
   return (
-    <Container fluid className="mt-20 min-h-screen">
-      <Row>
-        {" "}
-        <Banner bannerImage={banner} logoImage={imageLogo} />
-      </Row>
-      <Col lg={12} className="my-28">
-        <div className="flex cursor-pointer justify-center text-center text-base font-bold text-gray-500">
-          <Row className="gap-y-5">
-            {products.map((product, index) => (
-              <Col key={index} lg={4} md={4} sm={12}>
-                <div
-                  className="w-48 rounded-xl bg-[#f5f5f5] p-10 shadow-md duration-200 ease-in hover:scale-110"
-                  onClick={() => handleProductClick(product.name)}
-                >
-                  <img
-                    src={product.image}
-                    alt="icon"
-                    width={64}
-                    className="mb-5 ml-6"
-                  />
-                  <h2>{product.name}</h2>
-                </div>
-              </Col>
-            ))}
-          </Row>
+    <div className="mt-90 overflow-hidden">
+      <Banner bannerImage={banner} logoImage={imageLogo} />
+      <div className="my-24 flex justify-center gap-x-5 px-10 text-center font-bold">
+        <div className="grid grid-cols-2 items-center justify-center gap-8 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-3 xl:grid-cols-3">
+          {products.map((product, index) => (
+            <div
+              key={index}
+              className="cursor-pointer rounded-xl bg-[#f5f5f5] p-6 shadow-md duration-200 ease-in hover:scale-110 lg:col-span-1"
+              onClick={() => handleProductClick(product.name)}
+            >
+              <img
+                src={product.image}
+                alt="icon"
+                className="mb-3 w-14 max-[600px]:ml-3 max-[600px]:w-16 lg:ml-7"
+              />
+              <h2>{product.name}</h2>
+            </div>
+          ))}
         </div>
-      </Col>
+      </div>
       {selectedProduct && (
         <div className="product-component">{renderProductComponent()}</div>
       )}
-    </Container>
+    </div>
   );
 };
 
