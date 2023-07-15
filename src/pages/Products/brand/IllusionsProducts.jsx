@@ -24,12 +24,20 @@ import {
 const Banner = ({ bannerImage, logoImage }) => {
   return (
     <div
-      className="min-h-screen w-screen bg-cover bg-no-repeat relative mt-20"
-      style={{ backgroundImage: `url(${bannerImage})` }}
+      className="relative mt-20 min-h-screen w-screen bg-cover bg-no-repeat py-10"
+      style={{
+        backgroundImage: `url(${bannerImage})`,
+        backgroundSize: "cover",
+        backgroundAttachment: "scroll",
+      }}
     >
-      <div className="pt-36 flex justify-center">
-        <div className="bg-white p-5 rounded-md shadow-md absolute bottom-10">
-          <img src={logoImage} alt="logo brand" className="w-auto max-w-16" />
+      <div className="flex justify-start ps-10 pt-10">
+        <div className="bottom-10 rounded-md bg-white p-5 shadow-md">
+          <img
+            src={logoImage}
+            alt="logo brand"
+            className="max-w-16 w-[250px]"
+          />
         </div>
       </div>
     </div>
@@ -89,18 +97,18 @@ const InternalProducts = () => {
   return (
     <div className="mt-90 overflow-hidden">
       <Banner bannerImage={banner} logoImage={imageLogo} />
-      <div className="flex justify-center gap-x-5 my-24 px-10 text-center font-bold">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8 justify-center items-center">
+      <div className="my-24 flex justify-center gap-x-5 px-10 text-center font-bold">
+        <div className="grid grid-cols-1 items-center justify-center gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
           {products.map((product, index) => (
             <div
               key={index}
-              className="lg:col-span-1 bg-[#f5f5f5] shadow-md rounded-xl p-6 hover:scale-110 ease-in duration-200 cursor-pointer"
+              className="cursor-pointer rounded-xl bg-[#f5f5f5] p-6 shadow-md duration-200 ease-in hover:scale-110 lg:col-span-1"
               onClick={() => handleProductClick(product.name)}
             >
               <img
                 src={product.image}
                 alt="icon"
-                className="w-14 lg:ml-7 mb-3 max-[600px]:w-16 max-[600px]:ml-6"
+                className="mb-3 w-14 max-[600px]:ml-6 max-[600px]:w-16 lg:ml-7"
               />
               <h2>{product.name}</h2>
             </div>

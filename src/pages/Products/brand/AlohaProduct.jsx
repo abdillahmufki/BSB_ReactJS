@@ -22,7 +22,7 @@ const Banner = ({ bannerImage, logoImage }) => {
         <img
           src={logoImage}
           alt="logo brand"
-          className="max-w-16 absolute bottom-0 w-auto"
+          className="max-w-16 absolute bottom-0 w-[300px]"
         />
       </div>
     </div>
@@ -52,7 +52,7 @@ const AlohaProduct = () => {
             <SpreiEmboss />
           </>
         );
-      case "Sprei Singgle":
+      case "Sprei Single":
         return (
           <>
             <SpreiSinggleMotif />
@@ -67,14 +67,14 @@ const AlohaProduct = () => {
   const products = [
     { name: "Bed Cover", image: bedCover },
     { name: "Sprei", image: sprei },
-    { name: "Sprei Singgle", image: spreiSinggle },
+    { name: "Sprei Single", image: spreiSinggle },
   ];
 
   return (
     <div className="mt-90 overflow-hidden">
       <Banner bannerImage={banner} logoImage={imageLogo} />
       <div className="my-24 flex justify-center gap-x-5 px-10 text-center font-bold">
-        <div className="grid grid-cols-2 items-center justify-center gap-8 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-3 xl:grid-cols-3">
+        <div className="grid grid-cols-2 items-center justify-center gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
           {products.map((product, index) => (
             <div
               key={index}

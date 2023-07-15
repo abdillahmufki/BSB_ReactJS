@@ -12,9 +12,13 @@ const Banner = ({ bannerImage, logoImage }) => {
       className="relative mt-20 min-h-screen w-screen bg-cover bg-no-repeat"
       style={{ backgroundImage: `url(${bannerImage})` }}
     >
-      <div className="flex justify-center pt-36">
-        <div className="absolute bottom-10 rounded-md bg-white p-5 shadow-md">
-          <img src={logoImage} alt="logo brand" className="max-w-16 w-auto" />
+      <div className="flex justify-start ps-10 pt-28">
+        <div className="bottom-10 rounded-md bg-white p-5 shadow-md">
+          <img
+            src={logoImage}
+            alt="logo brand"
+            className="max-w-16 w-[250px]"
+          />
         </div>
       </div>
     </div>

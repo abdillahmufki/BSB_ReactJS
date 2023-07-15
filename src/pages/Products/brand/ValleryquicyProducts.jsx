@@ -43,7 +43,11 @@ const Banner = ({ bannerImage, logoImage }) => {
     >
       <div className="flex justify-center pt-36">
         <div className="absolute bottom-10 rounded-md bg-white p-5 shadow-md">
-          <img src={logoImage} alt="logo brand" className="max-w-16 w-auto" />
+          <img
+            src={logoImage}
+            alt="logo brand"
+            className="max-w-16 w-[250px]"
+          />
         </div>
       </div>
     </div>

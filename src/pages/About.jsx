@@ -4,7 +4,7 @@ import AboutSince from "./About/AboutSince";
 import AboutContact from "./About/AboutContact";
 const About = () => {
   return (
-    <div className="lg:mt-[80px] max-[728px]:mt-16">
+    <div className="max-[728px]:mt-16 lg:mt-[80px]">
       <HeroAbout />
       <AboutSince />
       <AboutContact />
